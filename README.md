@@ -1,0 +1,2 @@
+# EQ
+Legacy Horse Plugin
