@@ -1,0 +1,498 @@
+Disciplines:
+- ' &7&m*--------------------------------------------------------------------*'
+- ' '
+- '  &bDressage'
+- '  &bShow Jumping'
+- '  &bCross Country'
+- '  &bRacing'
+- '  &bWestern'
+- '  &bTrails'
+- '  &bHunters'
+- '  &bEventing'
+- ' '
+- ' &7&m*--------------------------------------------------------------------*'
+
+crosscountry:
+    One:
+        Question: "&91. &bWhat colour flag &b&lMUST &bbe on the right side of the jump?"
+        AnswerOne: "&bA. &7Red."
+        AnswerTwo: "&bB. &7Green."
+        AnswerThree: "&bC. &7Pink."
+        AnswerFour: "&bD. &7Blue."
+    Two:
+        Question: "&92. &bWhat can you be disqualified for in cross country?"
+        AnswerOne: "&bA. &7Wearing a cross country vest?"
+        AnswerTwo: "&bB. &7Riding an exhausted horse."
+        AnswerThree: "&bC. &7Hitting your horse twice."
+        AnswerFour: "&bD. &7Leverage bits."
+    Three:
+        Question: "&93. &bWhat is the maximum speed for cross country?"
+        AnswerOne: "&bA. &70.35"
+        AnswerTwo: "&bB. &70.42"
+        AnswerThree: "&bC. &70.40"
+        AnswerFour: "&bD. &70.26"
+    Four:
+        Question: "&94. &bWhat is the maximum jump for cross country?"
+        AnswerOne: "&bA. &78.0B"
+        AnswerTwo: "&bD. &79.0B"
+        AnswerThree: "&bC. &73.5B"
+        AnswerFour: "&bB. &78.9B"
+    Five:
+        Question: "&95. &bWhat is mandatory to wear during cross country?"
+        AnswerOne: "&bA. &7White breeches."
+        AnswerTwo: "&bD. &7Gloves."
+        AnswerThree: "&bC. &7Protective vest."
+        AnswerFour: "&bB. &7Coloured shirt."
+    Six:
+        Question: "&96. &bWhat does a black line through a flag mean?"
+        AnswerOne: "&bA. &7Do not jump."
+        AnswerTwo: "&bB. &7Alternative route."
+        AnswerThree: "&bC. &7Broken jump."
+        AnswerFour: "&bD. &7Not your level."
+    Seven:
+        Question: "&97. &bWhat do the coloured numbers signify?"
+        AnswerOne: "&bA. &7Level."
+        AnswerTwo: "&bB. &7Type of jump."
+        AnswerThree: "&bC. &7Which way to jump."
+        AnswerFour: "&bD. &7Height."
+    Eight:
+        Question: "&98. &bWhat is the purpose of cross country?"
+        AnswerOne: "&bA. &7To test collection and movement."
+        AnswerTwo: "&bB. &7To test stamina, endurance and strength."
+        AnswerThree: "&bC. &7To show your equitation."
+        AnswerFour: "&bD. &7To jump a small arena course."
+    Nine:
+        Question: "&99. &bWhat discipline is cross country a 'phase' for?"
+        AnswerOne: "&bA. &7Hunters."
+        AnswerTwo: "&bB. &7Dressage."
+        AnswerThree: "&bC. &7Western."
+        AnswerFour: "&bD. &7Eventing."
+    Ten:
+        Question: "&910. &bWhich of the following is not a cross country jump?"
+        AnswerOne: "&bA. &7Ditch."
+        AnswerTwo: "&bB. &7Crossrail."
+        AnswerThree: "&bC. &7Bank."
+        AnswerFour: "&bD. &7Keyhole."
+dressage:
+    One:
+        Question: "&91. &bWhich of the following will you &b&lNOT &bbe disqualified for in a &bdressage test?"
+        AnswerOne: "&bA. &7The horse leaving the arena."
+        AnswerTwo: "&bB. &7Hitting your horse."
+        AnswerThree: "&bC. &7Horse stepping one hoof outside the arena."
+        AnswerFour: "&bD. &7Falling off."
+    Two:
+        Question: "&92. &bHow many types of gaits are there in dressage?"
+        AnswerOne: "&bA. &7Two - Collected, Extended."
+        AnswerTwo: "&bB. &7Four - Collected, Extended, Gaited, Basic."
+        AnswerThree: "&bC. &7One - Extended."
+        AnswerFour: "&bD. &7Three - Collected, Extended, Free."
+    Three:
+        Question: "&93. &bWhat can your horse not wear at dressage?"
+        AnswerOne: "&bA. &7Martingale."
+        AnswerTwo: "&bB. &7Bell boots."
+        AnswerThree: "&bC. &7Polo wraps."
+        AnswerFour: "&bD. &7A and B."
+    Four:
+        Question: "&94. &bWhat is considered bad sportsmanship?"
+        AnswerOne: "&bA. &7Wishing fellow competitors good luck."
+        AnswerTwo: "&bB. &7Stomping out of the arena because you did poorly."
+        AnswerThree: "&bC. &7Smiling."
+        AnswerFour: "&bD. &7Being happy with how you've done."
+    Five:
+        Question: "&95. &bTrue or False? Plaiting / Braiding is required?"
+        AnswerOne: "&bA. &7True."
+        AnswerTwo: "&bB. &7False."
+    Six:
+        Question: "&96. &bWhat percentage of a test may be missed before &bdisqualification?"
+        AnswerOne: "&bA. &730%"
+        AnswerTwo: "&bB. &725%"
+        AnswerThree: "&bC. &750%"
+        AnswerFour: "&bD. &775%"
+    Seven:
+        Question: "&97. &bHow many loops are found in a serpentine"
+        AnswerOne: "&bA. &73"
+        AnswerTwo: "&bB. &76"
+        AnswerThree: "&bC. &72"
+        AnswerFour: "&bD. &78"
+    Eight:
+        Question: "&98. &bDuring the haunches-in movement, what part of the horses body &bgoes towards the centre of the arena?"
+        AnswerOne: "&bA. &7Shoulder."
+        AnswerTwo: "&bB. &7Whole body."
+        AnswerThree: "&bC. &7Haunches."
+        AnswerFour: "&bD. &7Head."
+    Nine:
+        Question: "&99. &bWhat is the fastest speed a dressage horse can be?"
+        AnswerOne: "&bA. &70.159"
+        AnswerTwo: "&bB. &70.08"
+        AnswerThree: "&bC. &70.45"
+        AnswerFour: "&bD. &70.26"
+    Ten:
+        Question: "&910. &bWhat are the three common sized circles?"
+        AnswerOne: "&bA. &78B, 13B, 18B."
+        AnswerTwo: "&bB. &73B, 9B, 26B."
+        AnswerThree: "&bC. &710B, 15B, 20B."
+        AnswerFour: "&bD. &75-8B, 3-9B, 10-18B."
+eventing:
+    One:
+        Question: "&91. &bWhat is the max speed for eventing SJ and XC?"
+        AnswerOne: "&bA. &70.42"
+        AnswerTwo: "&bB. &70.40"
+        AnswerThree: "&bC. &70.32"
+        AnswerFour: "&bD. &70.16"
+    Two:
+        Question: "&92. &bWhat is the max speed for eventing dressage?"
+        AnswerOne: "&bA. &70.15"
+        AnswerTwo: "&bB. &70.26"
+        AnswerThree: "&bC. &70.16"
+        AnswerFour: "&bD. &70.42"
+    Three:
+        Question: "&93. &bWhat is the order of the phases in eventing?"
+        AnswerOne: "&bA. &7Dressage, Show-Jumping and Cross-Country."
+        AnswerTwo: "&bB. &7Dressage, Cross-Country and Show-Jumping."
+        AnswerThree: "&bC. &7Show-Jumping, Cross-Country and Dressage."
+        AnswerFour: "&bD. &7Cross-Country, Show-Jumping and Dressage."
+    Four:
+        Question: "&94. &bWhat is required attire for XC?"
+        AnswerOne: "&bA. &7White breeches."
+        AnswerTwo: "&bD. &7Black boots."
+        AnswerThree: "&bC. &7Protective vest."
+        AnswerFour: "&bB. &7Coloured shirt to level."
+    Five:
+        Question: "&95. &bWhat is one way to be disqualified in XC?"
+        AnswerOne: "&bA. &7Running too slow."
+        AnswerTwo: "&bD. &7Two refusals."
+        AnswerThree: "&bC. &7Jumping a jump the wrong way."
+        AnswerFour: "&bB. &7Hitting your horse once while approaching a jump."
+    Six:
+        Question: "&96. &bWhat is the maximum jump in eventing?"
+        AnswerOne: "&bA. &78.9B"
+        AnswerTwo: "&bB. &79.0B"
+        AnswerThree: "&bC. &78.5B"
+        AnswerFour: "&bD. &77.0B"
+    Seven:
+        Question: "&97. &bWhat is the lowest level of recognised eventing?"
+        AnswerOne: "&bA. &7Novice."
+        AnswerTwo: "&bB. &7Preliminary."
+        AnswerThree: "&bC. &7Beginner novice."
+        AnswerFour: "&bD. &7Intermediate."
+    Eight:
+        Question: "&98. &bHow is SJ scored?"
+        AnswerOne: "&bA. &7Lowest time wins regardless of faults."
+        AnswerTwo: "&bB. &7Lowest time and least faults wins."
+        AnswerThree: "&bC. &7Prettiest movement wins."
+        AnswerFour: "&bD. &7Highest time and lowest amount of faults wins."
+    Nine:
+        Question: "&99. &bWhen tracking left in dressage what letters can you cross at a &bdiagonal?"
+        AnswerOne: "&bA. &7H and F."
+        AnswerTwo: "&bB. &7M and K."
+        AnswerThree: "&bC. &7A to C."
+        AnswerFour: "&bD. &7C to A."
+    Ten:
+        Question: "&910. &bWhich of the following is a dressage disqualification?"
+        AnswerOne: "&bA. &7Not wearing a helmet."
+        AnswerTwo: "&bB. &7Using a leverage bit."
+        AnswerThree: "&bC. &7Using spurs."
+        AnswerFour: "&bD. &7Scoring a low score."
+hunters:
+    One:
+        Question: "&91. &bWhat is the maximum speed for hunters?"
+        AnswerOne: "&bA. &70.26"
+        AnswerTwo: "&bB. &70.28"
+        AnswerThree: "&bC. &70.36"
+        AnswerFour: "&bD. &70.38"
+    Two:
+        Question: "&92. &bWhat is the purpose of the hunters"
+        AnswerOne: "&bA. &7To get the fastest time."
+        AnswerTwo: "&bB. &7To get the fastest time and look good."
+        AnswerThree: "&bC. &7To make the horse look good."
+        AnswerFour: "&bD. &7To make you and the horse look good and collected."
+    Three:
+        Question: "&93. &bWhat is the hunter headset?"
+        AnswerOne: "&bA. &7Cursor being above horse's ears."
+        AnswerTwo: "&bB. &7Cursor being at horse's withers."
+        AnswerThree: "&bC. &7Cursor being half way down horse's neck."
+        AnswerFour: "&bD. &7Cursor being 1/4 down the horse's neck."
+    Four:
+        Question: "&94. &bWhat is the correct hunters show attire?"
+        AnswerOne: "&bA. &7A cow boy hat and a show jacket."
+        AnswerTwo: "&bB. &7A white show pad, a show jacket and breeches."
+        AnswerThree: "&bC. &7A coloured saddle pad and matching shirt."
+        AnswerFour: "&bD. &7It doesn't matter."
+    Five:
+        Question: "&95. &bThe position before you jump can be called what?"
+        AnswerOne: "&bA. &7Jumping."
+        AnswerTwo: "&bB. &7Jumping stance."
+        AnswerThree: "&bC. &72 Point."
+        AnswerFour: "&bD. &7Sit-up."
+    Six:
+        Question: "&96. &bDo you use your hands or legs during hunters?"
+        AnswerOne: "&bA. &7Legs."
+        AnswerTwo: "&bB. &7Hands."
+        AnswerThree: "&bC. &7Neither."
+        AnswerFour: "&bD. &7Both."
+    Seven:
+        Question: "&97. &bWhats the recommended speed for a hunter flat horse?"
+        AnswerOne: "&bA. &70.29 - 0.31"
+        AnswerTwo: "&bB. &70.20 - 0.23"
+        AnswerThree: "&bC. &70.24 - 0.26"
+        AnswerFour: "&bD. &70.15 - 0.20"
+    Eight:
+        Question: "&98. &bWhat jump would you &b&lNOT &bsee in the hunters ring?"
+        AnswerOne: "&bA. &7Rolltop."
+        AnswerTwo: "&bB. &7Bank."
+        AnswerThree: "&bC. &7Oxer"
+        AnswerFour: "&bD. &7Crosscountry jump"
+    Nine:
+        Question: "&99. &bWhat side of an obstacle should the red flag appear on?"
+        AnswerOne: "&bA. &7There isn't a red flag."
+        AnswerTwo: "&bB. &7The left side."
+        AnswerThree: "&bC. &7The right side."
+        AnswerFour: "&bD. &7It doesn't matter."
+    Ten:
+        Question: "&910. &bWhat is a lead?"
+        AnswerOne: "&bA. &7The leader of a group trail ride."
+        AnswerTwo: "&bB. &7The other word for a diagonal."
+        AnswerThree: "&bC. &7The direction the horse is cantering."
+        AnswerFour: "&bD. &7Whichever of the horse's hooves are leading the canter."
+racing:
+    One:
+        Question: "&91. &bWhich one of the following is &b&lNOT &ba race at Triple Crown?"
+        AnswerOne: "&bA. &7The Preakness Stakes."
+        AnswerTwo: "&bB. &7The Belmont Derby."
+        AnswerThree: "&bC. &7The Kentucky Derby."
+        AnswerFour: "&bD. &7The Belmont Stakes"
+    Two:
+        Question: "&92. &bWhat is the name of the first horse to win the Triple Crown?"
+        AnswerOne: "&bA. &7Omaha."
+        AnswerTwo: "&bB. &7Whirlaway."
+        AnswerThree: "&bC. &7Sir Barton."
+        AnswerFour: "&bD. &7American Pharaoh."
+    Three:
+        Question: "&93. &bWhat month is the Melbourne cup held in?"
+        AnswerOne: "&bA. &7September"
+        AnswerTwo: "&bB. &7October"
+        AnswerThree: "&bC. &7November"
+        AnswerFour: "&bD. &7December"
+    Four:
+        Question: "&94. &bWhich of the following can &b&lNOT &bget you disqualified?"
+        AnswerOne: "&bA. &7Over the max speed."
+        AnswerTwo: "&bD. &7Overtaking people."
+        AnswerThree: "&bC. &7Wrong course."
+        AnswerFour: "&bB. &7Jockey riding dangerously."
+    Five:
+        Question: "&95. &bWhere did the steeplechase originate from?"
+        AnswerOne: "&bA. &7United Kingdom."
+        AnswerTwo: "&bD. &7Canada."
+        AnswerThree: "&bC. &7Australia."
+        AnswerFour: "&bB. &7Ireland."
+    Six:
+        Question: "&96. &bWhat is the max speed limit for racing?"
+        AnswerOne: "&bA. &70.46"
+        AnswerTwo: "&bB. &70.45"
+        AnswerThree: "&bC. &70.44"
+        AnswerFour: "&bD. &70.43"
+    Seven:
+        Question: "&97. &bWhich of the following horses are more common racehorses?"
+        AnswerOne: "&bA. &7Standardbred."
+        AnswerTwo: "&bB. &7Lipizzaner."
+        AnswerThree: "&bC. &7Shire."
+        AnswerFour: "&bD. &7Appaloosa."
+    Eight:
+        Question: "&98. &bHow many jumps are in the Oxford track?"
+        AnswerOne: "&bA. &76"
+        AnswerTwo: "&bB. &77"
+        AnswerThree: "&bC. &78"
+        AnswerFour: "&bD. &79"
+    Nine:
+        Question: "&99. &bWhat is the rider called in racing?"
+        AnswerOne: "&bA. &7Rider."
+        AnswerTwo: "&bB. &7Host."
+        AnswerThree: "&bC. &7Jockey."
+        AnswerFour: "&bD. &7Person."
+    Ten:
+        Question: "&910. &bWhat do jockeys wear around their eyes in a race?"
+        AnswerOne: "&bA. &7Glasses."
+        AnswerTwo: "&bB. &7Eye contacts."
+        AnswerThree: "&bC. &7Goggles."
+        AnswerFour: "&bD. &7Night Vision Goggles."
+showjumping:
+    One:
+        Question: "&91. &bWhat tack is show jumping ridden in?"
+        AnswerOne: "&bA. &7English tack."
+        AnswerTwo: "&bB. &7Western tack."
+        AnswerThree: "&bC. &7Either, it doesn't matter."
+        AnswerFour: "&bD. &7Neither, it only requires a saddle."
+    Two:
+        Question: "&92. &bThe goal of show jumping is to?"
+        AnswerOne: "&bA. &7Jump immovable objects in a grassy terrain."
+        AnswerTwo: "&bB. &7Perform a pattern using a series of letters in an arena."
+        AnswerThree: "&bC. &7Complete a course of fences with the fastest time and least &7faults."
+        AnswerFour: "&bD. &7Going through a set of poles in order to get the fastest time."
+    Three:
+        Question: "&93. &bWhat tack is often used?"
+        AnswerOne: "&bA. &7Standard martingale, saddle with horns."
+        AnswerTwo: "&bB. &7Running martingale, polo wraps and leg boots."
+        AnswerThree: "&bC. &7Standard martingale, polo wraps and leg boots."
+        AnswerFour: "&bD. &7Shipping boots, polo wraps and sliding boots."
+    Four:
+        Question: "&94. &bWhat are faults measured in?"
+        AnswerOne: "&bA. &72's and 4's."
+        AnswerTwo: "&bB. &76's and 8's"
+        AnswerThree: "&bC. &71's and 5's."
+        AnswerFour: "&bD. &71's and 3's."
+    Five:
+        Question: "&95. &bWhat can result in 3 faults?"
+        AnswerOne: "&bA. &7Refusal, touching standard, bad sportsmanship."
+        AnswerTwo: "&bB. &7Refusal, touching standard, wrong course."
+        AnswerThree: "&bC. &7Refusal, wrong course, bad sportsmanship."
+        AnswerFour: "&bD. &7Bad sportsmanship, wrong course, touching standard."
+    Six:
+        Question: "&96. &bThe show jumping limit is _._B with the exceptions of _._B for &bVIP+?"
+        AnswerOne: "&bA. &78.0B / 9.0B"
+        AnswerTwo: "&bB. &78.5B / 9.0B"
+        AnswerThree: "&bC. &79.0B / 9.5B"
+        AnswerFour: "&bD. &78.0B / 8.5B"
+    Seven:
+        Question: "&97. &bWhat jumps are used in show jumping?"
+        AnswerOne: "&bA. &7Verticals and spreads."
+        AnswerTwo: "&bB. &7Double and triple combinations."
+        AnswerThree: "&bC. &7Both."
+        AnswerFour: "&bD. &7None."
+    Eight:
+        Question: "&98. &bWhat can result in disqualification?"
+        AnswerOne: "&bA. &7Wrong course, griefing course, wrong tack, illegal horse, too &7many &7faults."
+        AnswerTwo: "&bB. &7Wrong course, wrong tack, using crop, griefing course."
+        AnswerThree: "&bC. &7Using crop, wrong tack, incorrect show attire."
+        AnswerFour: "&bD. &7All of the above."
+    Nine:
+        Question: "&99. &bWhat is the correct show attire?"
+        AnswerOne: "&bA. &7Helmet, boots."
+        AnswerTwo: "&bB. &7Jacket, breeches."
+        AnswerThree: "&bC. &7All of the above."
+        AnswerFour: "&bD. &7Nothing is required."
+    Ten:
+        Question: "&910. &bTrue or false, horses cannot exceed 4 blocks over a jump?"
+        AnswerOne: "&bA. &7True."
+        AnswerTwo: "&bB. &7False."
+trails:
+    One:
+        Question: "&91. &bWhat should you always wear on your head during trails?"
+        AnswerOne: "&bA. &7A winter hat."
+        AnswerTwo: "&bB. &7A mask."
+        AnswerThree: "&bC. &7A helmet."
+        AnswerFour: "&bD. &7A birds nest."
+    Two:
+        Question: "&92. &bIf your horse spooks, should you?"
+        AnswerOne: "&bA. &7Scream."
+        AnswerTwo: "&bB. &7Dismount and run away."
+        AnswerThree: "&bC. &7Call for help."
+        AnswerFour: "&bD. &7Stay calm and leave."
+    Three:
+        Question: "&93. &bIf you encounter an animal you should?"
+        AnswerOne: "&bA. &7Leave it alone."
+        AnswerTwo: "&bB. &7Hit it."
+        AnswerThree: "&bC. &7Attempt to pet it."
+        AnswerFour: "&bD. &7Mimic it's sounds."
+    Four:
+        Question: "&94. &bIf you go on a group trail ride you should do what?"
+        AnswerOne: "&bA. &7Stay far from others."
+        AnswerTwo: "&bD. &7Stay together as a group."
+        AnswerThree: "&bC. &7Ride in-front of the leader."
+        AnswerFour: "&bB. &7Go the opposite direction of the leader."
+    Five:
+        Question: "&95. &bIf you're on a trail and see a pretty flower you should?"
+        AnswerOne: "&bA. &7Stop and pick it out the ground."
+        AnswerTwo: "&bD. &7Smell the flower."
+        AnswerThree: "&bC. &7Only look at it."
+        AnswerFour: "&bB. &7Pluck the flower's petals."
+    Six:
+        Question: "&96. &bIf you're leading a group trail you should?"
+        AnswerOne: "&bA. &7Never speak to people riding with you."
+        AnswerTwo: "&bB. &7Ask if anyone's horse bucks, and warn others."
+        AnswerThree: "&bC. &7Stay far behind the group."
+        AnswerFour: "&bD. &7Go too fast for the group."
+    Seven:
+        Question: "&97. &bIf you sleep in the wilderness you should?"
+        AnswerOne: "&bA. &7Pull up all the grass."
+        AnswerTwo: "&bB. &7Chase wild animals around."
+        AnswerThree: "&bC. &7Don't damage the environment."
+        AnswerFour: "&bD. &7Leave holes everywhere."
+    Eight:
+        Question: "&98. &bIf someone is lost, you should tell the group to?"
+        AnswerOne: "&bA. &7Run and panic."
+        AnswerTwo: "&bB. &7Stay put on their horses."
+        AnswerThree: "&bC. &7Dismount and tie up their horses."
+        AnswerFour: "&bD. &7Go back to the trail warp.."
+    Nine:
+        Question: "&99. &bWhen looking for a lost participant be sure to?"
+        AnswerOne: "&bA. &7Run off the trail."
+        AnswerTwo: "&bB. &7Scream as loudly as possible."
+        AnswerThree: "&bC. &7Go onto a different trail to look for them.."
+        AnswerFour: "&bD. &7Back track and stay on the trail."
+    Ten:
+        Question: "&910. &bWhen hosting a trail you should tell participants?"
+        AnswerOne: "&bA. &7To always stay on the trail."
+        AnswerTwo: "&bB. &7To stay together."
+        AnswerThree: "&bC. &7Don't bother any wild animals."
+        AnswerFour: "&bD. &7All of the above."
+western:
+    One:
+        Question: "&91. &bWhich barrel can the rider go to first in barrel racing?"
+        AnswerOne: "&bA. &7Right."
+        AnswerTwo: "&bB. &7Left."
+        AnswerThree: "&bC. &7Right or Left."
+        AnswerFour: "&bD. &7Third"
+    Two:
+        Question: "&92. &bWhat type of class is western pleasure?"
+        AnswerOne: "&bA. &7Conformation."
+        AnswerTwo: "&bB. &7Flat."
+        AnswerThree: "&bC. &7Western equivalent of hunter."
+        AnswerFour: "&bD. &7Pattern."
+    Three:
+        Question: "&93. &bWhat is the maximum distance between poles in pole bending?"
+        AnswerOne: "&bA. &710."
+        AnswerTwo: "&bB. &78."
+        AnswerThree: "&bC. &75."
+        AnswerFour: "&bD. &715."
+    Four:
+        Question: "&94. &bShowmanship is shown how?"
+        AnswerOne: "&bA. &7Under saddle."
+        AnswerTwo: "&bD. &7At liberty."
+        AnswerThree: "&bC. &7In-hand."
+        AnswerFour: "&bB. &7Bareback."
+    Five:
+        Question: "&95. &bWhat does the roper do to signal she's done in calf roping?"
+        AnswerOne: "&bA. &7Walks away."
+        AnswerTwo: "&bD. &7Types 'Done'."
+        AnswerThree: "&bC. &7Jumps."
+        AnswerFour: "&bB. &7Mounts horse."
+    Six:
+        Question: "&96. &bWhat is the minimum distance between barrels in barrel racing?"
+        AnswerOne: "&bA. &720."
+        AnswerTwo: "&bB. &710."
+        AnswerThree: "&bC. &715."
+        AnswerFour: "&bD. &725."
+    Seven:
+        Question: "&97. &bWhat type of class is western horsemanship?"
+        AnswerOne: "&bA. &7Conformation."
+        AnswerTwo: "&bB. &7Flat."
+        AnswerThree: "&bC. &7Western version of hunter."
+        AnswerFour: "&bD. &7Pattern."
+    Eight:
+        Question: "&98. &bWhich events would be in a gymkhana?"
+        AnswerOne: "&bA. &7Calf roping."
+        AnswerTwo: "&bB. &75B show jumping."
+        AnswerThree: "&bC. &7Western pleasure."
+        AnswerFour: "&bD. &7Flag racing."
+    Nine:
+        Question: "&99. &bWhat does the roper do to the cow after roping it for the first time?"
+        AnswerOne: "&bA. &7Flips it with a 'Dinnerbone' nametag."
+        AnswerTwo: "&bB. &7Jumps and finishes."
+        AnswerThree: "&bC. &7Flips with a 'flip' nametag."
+        AnswerFour: "&bD. &7Kills it."
+    Ten:
+        Question: "&910. &bWhat tack is allowed in gymkhanas?"
+        AnswerOne: "&bA. &7English and Western."
+        AnswerTwo: "&bB. &7Western only."
+        AnswerThree: "&bC. &7English only."
+        AnswerFour: "&bD. &7Without tack."
