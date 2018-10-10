@@ -47,6 +47,7 @@ extends MiniModule<HorseManager> {
             return;
         }
         for (World world : UtilServer.getServer().getWorlds()) {
+            if (world.getName().startsWith("Survival")) continue;
             for (Entity entity : world.getEntities()) {
                 if (entity.getType() != EntityType.COW || this.list.contains((Object)entity)) continue;
                 UtilEnt.addAI(entity, 0, (PathfinderGoal)new PathfinderGoalAvoidTarget((EntityCreature)((CraftEntity)entity).getHandle(), EntityHuman.class, 30.0f, 1.0, 3.7));
