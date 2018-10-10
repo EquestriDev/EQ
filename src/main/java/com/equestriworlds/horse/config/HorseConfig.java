@@ -103,7 +103,7 @@ extends YamlConfiguration {
                 this.horses.put(str, new CustomHorse(str, (CustomHorseToken)this.gson.fromJson(this.getString("horses." + str), CustomHorseToken.class)));
             }
             catch (Exception e) {
-                System.out.println(C.consoleConvert(F.main("Horse", "Failed loading: " + F.elem(str))));
+                System.out.println(F.main("Horse", "Failed loading: " + F.elem(str)));
             }
         }
     }

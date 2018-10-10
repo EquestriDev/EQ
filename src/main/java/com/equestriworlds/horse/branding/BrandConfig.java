@@ -94,7 +94,7 @@ extends YamlConfiguration {
                 this.brands.put(UUID.fromString(str), new Brand(UUID.fromString(str), (BrandToken)this.gson.fromJson(this.getString("brands." + str), BrandToken.class)));
             }
             catch (Exception e) {
-                System.out.println(C.consoleConvert(F.main("Brand", "Failed loading: " + F.elem(str))));
+                System.out.println(F.main("Brand", "Failed loading: " + F.elem(str)));
             }
         }
     }

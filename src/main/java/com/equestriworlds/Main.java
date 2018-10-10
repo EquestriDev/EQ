@@ -57,7 +57,6 @@ implements Listener {
             }) {
             saveResource(f, false);
         }
-        C.reg();
         CoreClientManager clientManager = new CoreClientManager(this);
         CommandCenter.Initialize(this);
         this.getServer().getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new Updater(this), 1L, 1L);

@@ -58,6 +58,6 @@ implements Listener {
     }
 
     private void log(String message) {
-        System.out.println(C.consoleConvert(F.main("    - " + this.Name, message)));
+        System.out.println(F.main("    - " + this.Name, message));
     }
 }

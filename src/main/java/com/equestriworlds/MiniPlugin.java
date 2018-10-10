@@ -123,7 +123,7 @@ implements Listener {
     }
 
     private void log(String message) {
-        System.out.println(C.consoleConvert(F.main(this._pluginName, message)));
+        System.out.println(F.main(this._pluginName, message));
     }
 
     protected void runAsync(Runnable runnable) {

@@ -57,7 +57,7 @@ extends MiniPlugin {
         PluginManager manager = Bukkit.getServer().getPluginManager();
         Plugin plotsquared = manager.getPlugin("PlotSquared");
         if (plotsquared != null && !plotsquared.isEnabled()) {
-            System.out.println(C.consoleConvert(C.cRed + C.Bold + "Could not find PlotSquared! Disabling plugin..."));
+            System.out.println(C.cRed + C.Bold + "Could not find PlotSquared! Disabling plugin...");
             this.onDisable();
             return;
         }
