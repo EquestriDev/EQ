@@ -437,22 +437,12 @@ extends MiniPlugin {
             return;
         }
         for (CustomHorse horse : this.config.horses.values()) {
-            try {
-                if (horse.token.lastKnown == null || horse.token.lastKnown.getChunk() != chunk) continue;
-                horse.spawn(horse.token.lastKnown);
-            } catch (NullPointerException npe) {
-                System.err.println("NPE in HorseManager.chunkLoad");
-                System.err.println("chunk=" + chunk);
-                if (horse != null) {
-                    System.err.println("horse.token=" + horse.token);
-                    if (horse.token != null) {
-                        System.err.println("horse.token.lastKnown=" + horse.token.lastKnown);
-                        if (horse.token.lastKnown != null) {
-                            System.err.println("horse.token.lastKnown.getChunk()=" + horse.token.lastKnown.getChunk());
-                        }
-                    }
-                }
-            }
+            if (horse.token.lastKnown == null) continue;
+            int x = horse.token.lastKnown.getBlockX() >> 4;
+            int z = horse.token.lastKnown.getBlockZ() >> 4;
+            if (!horse.token.lastKnown.getWorld().getName().equals(chunk.getWorld().getName())
+                || x != chunk.getX() || z != chunk.getZ()) continue;
+            horse.spawn(horse.token.lastKnown);
         }
     }
 
