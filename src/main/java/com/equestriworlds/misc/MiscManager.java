@@ -158,7 +158,7 @@ extends MiniModule<HorseManager> {
 
     @EventHandler
     public void onInteract(PlayerInteractEvent event) {
-        if (!Rank.Has(event.getPlayer(), Rank.TJRMOD, false) && this.disabledItems.contains((Object)event.getMaterial())) {
+        if (!Rank.Has(event.getPlayer(), Rank.TJRMOD, false) && this.disabledItems.contains((Object)event.getMaterial()) && event.getPlayer().getGameMode() == GameMode.CREATIVE) {
             UtilPlayer.message((Entity)event.getPlayer(), F.main("Creative Manager", (Object)ChatColor.RED + "You can't place this block in Creative"));
             event.setCancelled(true);
         }
