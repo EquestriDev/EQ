@@ -98,9 +98,7 @@ extends MiniPlugin {
     @EventHandler
     public void onUse(PlayerInteractEvent event) {
         int uses;
-        if (!event.getPlayer().getName().equals("Heraldry") && !event.getPlayer().getName().equals("kellyyy")) {
-            return;
-        }
+        if (!event.getPlayer().isOp()) return;
         Player player = event.getPlayer();
         Action action = event.getAction();
         if (action != Action.RIGHT_CLICK_AIR && action != Action.RIGHT_CLICK_BLOCK) {
