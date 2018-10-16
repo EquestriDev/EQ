@@ -1,37 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.gson.ExclusionStrategy
- *  com.google.gson.FieldAttributes
- *  com.google.gson.Gson
- *  com.google.gson.GsonBuilder
- *  com.google.gson.TypeAdapter
- *  com.google.gson.annotations.Expose
- *  com.google.gson.reflect.TypeToken
- *  com.google.gson.stream.JsonReader
- *  com.google.gson.stream.JsonToken
- *  com.google.gson.stream.JsonWriter
- *  net.minecraft.server.v1_12_R1.Item
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.MojangsonParseException
- *  net.minecraft.server.v1_12_R1.MojangsonParser
- *  net.minecraft.server.v1_12_R1.NBTBase
- *  net.minecraft.server.v1_12_R1.NBTTagCompound
- *  org.bukkit.Bukkit
- *  org.bukkit.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.configuration.serialization.ConfigurationSerializable
- *  org.bukkit.configuration.serialization.ConfigurationSerialization
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack
- *  org.bukkit.craftbukkit.v1_12_R1.util.CraftMagicNumbers
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.potion.PotionEffect
- *  org.bukkit.potion.PotionEffectType
- */
 package com.equestriworlds.util;
 
 import com.google.gson.ExclusionStrategy;

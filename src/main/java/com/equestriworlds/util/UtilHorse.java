@@ -1,32 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.Block
- *  net.minecraft.server.v1_12_R1.Blocks
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityHorseAbstract
- *  net.minecraft.server.v1_12_R1.EntityHuman
- *  net.minecraft.server.v1_12_R1.EntityInsentient
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.EnumHand
- *  net.minecraft.server.v1_12_R1.EnumParticle
- *  net.minecraft.server.v1_12_R1.Item
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.Items
- *  net.minecraft.server.v1_12_R1.Packet
- *  net.minecraft.server.v1_12_R1.PacketPlayOutAttachEntity
- *  net.minecraft.server.v1_12_R1.PlayerAbilities
- *  net.minecraft.server.v1_12_R1.PlayerConnection
- *  net.minecraft.server.v1_12_R1.SoundCategory
- *  net.minecraft.server.v1_12_R1.SoundEffect
- *  net.minecraft.server.v1_12_R1.SoundEffects
- *  net.minecraft.server.v1_12_R1.World
- *  org.bukkit.Material
- *  org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory
- *  org.bukkit.event.entity.EntityRegainHealthEvent
- *  org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason
- */
 package com.equestriworlds.util;
 
 import java.util.Random;

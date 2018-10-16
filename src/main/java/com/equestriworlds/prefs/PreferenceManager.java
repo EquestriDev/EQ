@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.gson.Gson
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.event.EventHandler
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.prefs;
 
 import com.equestriworlds.MiniConfig;

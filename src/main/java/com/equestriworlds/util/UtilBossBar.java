@@ -1,13 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.boss.BarColor
- *  org.bukkit.boss.BarFlag
- *  org.bukkit.boss.BarStyle
- *  org.bukkit.boss.BossBar
- */
 package com.equestriworlds.util;
 
 import org.bukkit.Bukkit;

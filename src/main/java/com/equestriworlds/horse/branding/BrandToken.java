@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.horse.branding;
 
 import java.util.ArrayList;

@@ -1,9 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.ChatColor
- */
 package com.equestriworlds.horse.gui.list;
 
 import com.equestriworlds.horse.config.CustomHorse;

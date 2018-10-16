@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.rpmanager;
 
 public enum ResourcePack {

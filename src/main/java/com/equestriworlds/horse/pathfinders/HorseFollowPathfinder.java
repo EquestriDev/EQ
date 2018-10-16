@@ -1,37 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.AxisAlignedBB
- *  net.minecraft.server.v1_12_R1.BlockPosition
- *  net.minecraft.server.v1_12_R1.ControllerLook
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityHorseAbstract
- *  net.minecraft.server.v1_12_R1.EntityHuman
- *  net.minecraft.server.v1_12_R1.EntityLiving
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.EnumBlockFaceShape
- *  net.minecraft.server.v1_12_R1.EnumDirection
- *  net.minecraft.server.v1_12_R1.IBlockAccess
- *  net.minecraft.server.v1_12_R1.IBlockData
- *  net.minecraft.server.v1_12_R1.MathHelper
- *  net.minecraft.server.v1_12_R1.Navigation
- *  net.minecraft.server.v1_12_R1.NavigationAbstract
- *  net.minecraft.server.v1_12_R1.NavigationFlying
- *  net.minecraft.server.v1_12_R1.PathType
- *  net.minecraft.server.v1_12_R1.PathfinderGoal
- *  net.minecraft.server.v1_12_R1.World
- *  org.bukkit.Location
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.CraftServer
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.Event
- *  org.bukkit.event.entity.EntityTeleportEvent
- *  org.bukkit.plugin.PluginManager
- */
 package com.equestriworlds.horse.pathfinders;
 
 import com.equestriworlds.horse.config.CustomHorse;

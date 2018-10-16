@@ -1,26 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.md_5.bungee.api.chat.BaseComponent
- *  net.md_5.bungee.api.chat.TextComponent
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.Packet
- *  net.minecraft.server.v1_12_R1.PlayerConnection
- *  org.bukkit.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.World
- *  org.bukkit.block.Block
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.LivingEntity
- *  org.bukkit.entity.Player
- *  org.bukkit.entity.Player$Spigot
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.common.Rank;

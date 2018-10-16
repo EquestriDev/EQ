@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  me.clip.placeholderapi.external.EZPlaceholderHook
- *  org.bukkit.entity.Player
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.misc;
 
 import com.equestriworlds.horse.HorseManager;

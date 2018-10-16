@@ -1,27 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.block.Action
- *  org.bukkit.event.player.PlayerFishEvent
- *  org.bukkit.event.player.PlayerInteractEvent
- *  org.bukkit.event.player.PlayerItemHeldEvent
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.scheduler.BukkitRunnable
- *  org.bukkit.scheduler.BukkitTask
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.horse.lunging;
 
 import com.equestriworlds.MiniModule;

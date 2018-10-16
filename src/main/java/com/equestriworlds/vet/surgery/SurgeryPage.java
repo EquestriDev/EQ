@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Material
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.vet.surgery;
 
 import com.equestriworlds.account.CoreClientManager;

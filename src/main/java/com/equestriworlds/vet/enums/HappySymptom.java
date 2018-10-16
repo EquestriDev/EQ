@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.vet.enums;
 
 import com.equestriworlds.vet.enums.Symptom;

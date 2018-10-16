@@ -1,19 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.ChatColor
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.map.MapRenderer
- *  org.bukkit.map.MapView
- */
 package com.equestriworlds.horse.command.vet;
 
 import com.equestriworlds.command.CommandBase;

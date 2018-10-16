@@ -1,18 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.IChatBaseComponent
- *  net.minecraft.server.v1_12_R1.IChatBaseComponent$ChatSerializer
- *  net.minecraft.server.v1_12_R1.Packet
- *  net.minecraft.server.v1_12_R1.PacketPlayOutPlayerListHeaderFooter
- *  net.minecraft.server.v1_12_R1.PacketPlayOutScoreboardTeam
- *  net.minecraft.server.v1_12_R1.PlayerConnection
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.common.Rank;

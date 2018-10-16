@@ -1,29 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.milkbowl.vault.economy.Economy
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.IInventory
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.PlayerInventory
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.Sound
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftHumanEntity
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventoryCustom
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack
- *  org.bukkit.entity.Player
- *  org.bukkit.event.Listener
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.event.inventory.InventoryClickEvent
- *  org.bukkit.inventory.Inventory
- *  org.bukkit.inventory.InventoryHolder
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- */
 package com.equestriworlds.menu.page;
 
 import com.equestriworlds.MiniPlugin;

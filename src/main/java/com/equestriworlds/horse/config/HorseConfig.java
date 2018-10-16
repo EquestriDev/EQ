@@ -1,19 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.gson.Gson
- *  org.bukkit.Bukkit
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.configuration.ConfigurationSection
- *  org.bukkit.configuration.InvalidConfigurationException
- *  org.bukkit.configuration.MemoryConfigurationOptions
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.configuration.file.YamlConfigurationOptions
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.horse.config;
 
 import com.equestriworlds.horse.branding.Brand;

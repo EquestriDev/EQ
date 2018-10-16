@@ -1,10 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.apache.commons.io.FileUtils
- *  org.bukkit.configuration.file.YamlConfiguration
- */
 package com.equestriworlds.vet;
 
 import com.equestriworlds.Main;

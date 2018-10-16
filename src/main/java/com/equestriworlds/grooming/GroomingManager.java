@@ -1,38 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.md_5.bungee.api.ChatColor
- *  net.md_5.bungee.api.chat.BaseComponent
- *  net.md_5.bungee.api.chat.ClickEvent
- *  net.md_5.bungee.api.chat.ClickEvent$Action
- *  net.md_5.bungee.api.chat.ComponentBuilder
- *  net.md_5.bungee.api.chat.HoverEvent
- *  net.md_5.bungee.api.chat.HoverEvent$Action
- *  net.md_5.bungee.api.chat.TextComponent
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.NBTTagCompound
- *  org.apache.commons.io.FileUtils
- *  org.bukkit.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.Sound
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.entity.Player$Spigot
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.player.PlayerInteractEntityEvent
- *  org.bukkit.event.player.PlayerJoinEvent
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.scheduler.BukkitTask
- */
 package com.equestriworlds.grooming;
 
 import com.equestriworlds.Main;

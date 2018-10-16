@@ -1,11 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.horse.command.friend;
 
 import com.equestriworlds.MiniPlugin;

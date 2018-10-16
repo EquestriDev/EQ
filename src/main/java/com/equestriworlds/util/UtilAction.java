@@ -1,14 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.common.Rank;

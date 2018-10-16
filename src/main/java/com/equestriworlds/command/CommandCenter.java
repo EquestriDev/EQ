@@ -1,19 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Server
- *  org.bukkit.command.CommandSender
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.HandlerList
- *  org.bukkit.event.Listener
- *  org.bukkit.event.player.PlayerCommandPreprocessEvent
- *  org.bukkit.event.server.TabCompleteEvent
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.command;
 
 import com.equestriworlds.command.ICommand;

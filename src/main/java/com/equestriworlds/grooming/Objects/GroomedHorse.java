@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.grooming.Objects;
 
 import com.equestriworlds.grooming.Objects.GroomedHorseToken;

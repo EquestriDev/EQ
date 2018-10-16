@@ -1,10 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.command.CommandSender
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.command;
 
 import com.equestriworlds.command.CommandCenter;

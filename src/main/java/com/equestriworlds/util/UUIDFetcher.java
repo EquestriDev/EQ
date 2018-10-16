@@ -1,11 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.json.simple.JSONArray
- *  org.json.simple.JSONObject
- *  org.json.simple.parser.JSONParser
- */
 package com.equestriworlds.util;
 
 import java.io.InputStream;

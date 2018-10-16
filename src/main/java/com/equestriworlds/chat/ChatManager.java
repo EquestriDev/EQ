@@ -1,17 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.Sound
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.player.AsyncPlayerChatEvent
- *  org.bukkit.event.player.PlayerCommandPreprocessEvent
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.chat;
 
 import com.equestriworlds.MiniPlugin;

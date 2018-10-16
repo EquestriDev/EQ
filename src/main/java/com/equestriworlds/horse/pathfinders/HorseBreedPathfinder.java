@@ -1,31 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.AxisAlignedBB
- *  net.minecraft.server.v1_12_R1.ControllerLook
- *  net.minecraft.server.v1_12_R1.CriterionTriggerBredAnimals
- *  net.minecraft.server.v1_12_R1.CriterionTriggers
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityAgeable
- *  net.minecraft.server.v1_12_R1.EntityAnimal
- *  net.minecraft.server.v1_12_R1.EntityExperienceOrb
- *  net.minecraft.server.v1_12_R1.EntityLiving
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  net.minecraft.server.v1_12_R1.EntityTameableAnimal
- *  net.minecraft.server.v1_12_R1.EnumParticle
- *  net.minecraft.server.v1_12_R1.GameRules
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.NavigationAbstract
- *  net.minecraft.server.v1_12_R1.PathfinderGoal
- *  net.minecraft.server.v1_12_R1.Statistic
- *  net.minecraft.server.v1_12_R1.StatisticList
- *  net.minecraft.server.v1_12_R1.World
- *  org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory
- *  org.bukkit.event.entity.CreatureSpawnEvent
- *  org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason
- *  org.bukkit.event.entity.EntityBreedEvent
- */
 package com.equestriworlds.horse.pathfinders;
 
 import java.util.List;

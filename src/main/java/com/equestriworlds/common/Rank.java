@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.ChatColor
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  ru.tehkode.permissions.bukkit.PermissionsEx
- */
 package com.equestriworlds.common;
 
 import com.equestriworlds.util.C;

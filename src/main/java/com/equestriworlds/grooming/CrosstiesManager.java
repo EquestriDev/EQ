@@ -1,26 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.EntityType
- *  org.bukkit.entity.Hanging
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.hanging.HangingBreakEvent
- *  org.bukkit.event.player.PlayerInteractEntityEvent
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.potion.PotionEffect
- *  org.bukkit.potion.PotionEffectType
- */
 package com.equestriworlds.grooming;
 
 import com.equestriworlds.Main;

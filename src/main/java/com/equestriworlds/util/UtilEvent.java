@@ -1,16 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.LivingEntity
- *  org.bukkit.entity.Projectile
- *  org.bukkit.event.block.Action
- *  org.bukkit.event.entity.EntityDamageByEntityEvent
- *  org.bukkit.event.entity.EntityDamageEvent
- *  org.bukkit.event.player.PlayerInteractEvent
- *  org.bukkit.projectiles.ProjectileSource
- */
 package com.equestriworlds.util;
 
 import org.bukkit.entity.Entity;

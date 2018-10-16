@@ -1,17 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.SoundCategory
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.player.PlayerCommandPreprocessEvent
- *  org.bukkit.event.player.PlayerResourcePackStatusEvent
- *  org.bukkit.event.player.PlayerResourcePackStatusEvent$Status
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.rpmanager;
 
 import com.equestriworlds.MiniPlugin;

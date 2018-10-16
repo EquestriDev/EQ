@@ -1,16 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.MathHelper
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.block.Block
- *  org.bukkit.block.BlockFace
- *  org.bukkit.entity.Player
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.UtilMath;

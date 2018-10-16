@@ -1,14 +1,11 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.horse.branding;
 
 import com.equestriworlds.horse.branding.BrandToken;
 import java.util.UUID;
 
 public class Brand {
-    public UUID id;
-    public BrandToken token;
+    public UUID id; // Player ID, key
+    public BrandToken token; // Data
 
     public Brand(UUID id, String brand) {
         this.id = id;

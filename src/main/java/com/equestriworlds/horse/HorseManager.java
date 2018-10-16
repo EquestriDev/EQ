@@ -1,45 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.md_5.bungee.api.ChatColor
- *  net.milkbowl.vault.economy.Economy
- *  net.minecraft.server.v1_12_R1.EntityHorseAbstract
- *  org.bukkit.Bukkit
- *  org.bukkit.Chunk
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.Server
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.AnimalTamer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Horse
- *  org.bukkit.entity.Horse$Color
- *  org.bukkit.entity.Horse$Style
- *  org.bukkit.entity.Llama
- *  org.bukkit.entity.Llama$Color
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.entity.EntityDamageByEntityEvent
- *  org.bukkit.event.entity.EntityDamageEvent
- *  org.bukkit.event.entity.EntityDamageEvent$DamageCause
- *  org.bukkit.event.player.PlayerChangedWorldEvent
- *  org.bukkit.event.player.PlayerInteractEntityEvent
- *  org.bukkit.event.player.PlayerQuitEvent
- *  org.bukkit.event.world.ChunkLoadEvent
- *  org.bukkit.event.world.ChunkUnloadEvent
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.RegisteredServiceProvider
- *  org.bukkit.plugin.ServicesManager
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.horse;
 
 import com.equestriworlds.MiniPlugin;
@@ -391,6 +349,7 @@ extends MiniPlugin {
             horse.remove();
         }
         for (World world : UtilServer.getServer().getWorlds()) {
+            if (world.getName().equals("Survival")) continue;
             for (Entity entity : world.getEntities()) {
                 if (!(entity instanceof AbstractHorse) || entity.hasMetadata("NPC")) continue;
                 entity.remove();
@@ -422,7 +381,9 @@ extends MiniPlugin {
 
     @EventHandler
     public void chunkUnload(ChunkUnloadEvent e) {
-        for (Entity ent : e.getChunk().getEntities()) {
+        Chunk chunk = e.getChunk();
+        if (chunk.getWorld().getName().equals("Survival")) return;
+        for (Entity ent : chunk.getEntities()) {
             CustomHorse horse;
             CraftAbstractHorse cHorse;
             if (!(ent instanceof AbstractHorse) || (horse = this.config.getHorseByHorse((CraftEntity)ent)) == null || (cHorse = horse.horse) == null || !cHorse.getHandle().isAlive()) continue;
@@ -433,9 +394,7 @@ extends MiniPlugin {
     @EventHandler
     public void chunkLoad(ChunkLoadEvent e) {
         Chunk chunk = e.getChunk();
-        if (chunk.getWorld().getName().equals("Survival")) {
-            return;
-        }
+        if (chunk.getWorld().getName().equals("Survival")) return;
         for (CustomHorse horse : this.config.horses.values()) {
             if (horse.token.lastKnown == null) continue;
             int x = horse.token.lastKnown.getBlockX() >> 4;

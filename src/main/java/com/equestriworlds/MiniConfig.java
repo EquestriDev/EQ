@@ -1,19 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.gson.Gson
- *  com.google.gson.GsonBuilder
- *  org.apache.commons.lang.Validate
- *  org.bukkit.Bukkit
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.configuration.InvalidConfigurationException
- *  org.bukkit.configuration.MemoryConfigurationOptions
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.configuration.file.YamlConfigurationOptions
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.Listener
- */
 package com.equestriworlds;
 
 import com.equestriworlds.MiniConfigPlugin;

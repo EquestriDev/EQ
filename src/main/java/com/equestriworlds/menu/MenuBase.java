@@ -1,26 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.Container
- *  net.minecraft.server.v1_12_R1.EntityHuman
- *  net.minecraft.server.v1_12_R1.EntityPlayer
- *  org.bukkit.ChatColor
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer
- *  org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory
- *  org.bukkit.entity.HumanEntity
- *  org.bukkit.entity.LivingEntity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.EventPriority
- *  org.bukkit.event.Listener
- *  org.bukkit.event.inventory.InventoryClickEvent
- *  org.bukkit.event.inventory.InventoryCloseEvent
- *  org.bukkit.event.inventory.InventoryOpenEvent
- *  org.bukkit.event.player.PlayerQuitEvent
- *  org.bukkit.inventory.Inventory
- *  org.bukkit.inventory.InventoryView
- */
 package com.equestriworlds.menu;
 
 import com.equestriworlds.MiniPlugin;

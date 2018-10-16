@@ -1,11 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Particle
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.UtilMath;

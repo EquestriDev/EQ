@@ -1,15 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.command.CommandSender
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Horse
- *  org.bukkit.entity.Horse$Style
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.horse.command.admin;
 
 import com.equestriworlds.MiniPlugin;

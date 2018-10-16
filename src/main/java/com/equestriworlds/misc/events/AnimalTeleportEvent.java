@@ -1,14 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.entity.Player
- *  org.bukkit.event.Cancellable
- *  org.bukkit.event.Event
- *  org.bukkit.event.HandlerList
- */
 package com.equestriworlds.misc.events;
 
 import com.equestriworlds.horse.config.CustomHorse;

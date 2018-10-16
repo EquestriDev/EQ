@@ -1,22 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.Material
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.entity.Horse
- *  org.bukkit.entity.Horse$Color
- *  org.bukkit.entity.Horse$Style
- *  org.bukkit.entity.Horse$Variant
- *  org.bukkit.entity.Llama
- *  org.bukkit.entity.Llama$Color
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- */
 package com.equestriworlds.horse.branding.list;
 
 import com.equestriworlds.account.CoreClientManager;

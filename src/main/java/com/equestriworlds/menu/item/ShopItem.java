@@ -1,13 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  org.bukkit.Material
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- */
 package com.equestriworlds.menu.item;
 
 import com.equestriworlds.util.C;

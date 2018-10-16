@@ -1,13 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.common.collect.BiMap
- *  net.minecraft.server.v1_12_R1.EnumProtocol
- *  net.minecraft.server.v1_12_R1.Packet
- *  net.minecraft.server.v1_12_R1.PacketDataSerializer
- *  net.minecraft.server.v1_12_R1.PacketListener
- */
 package com.equestriworlds.util;
 
 import com.google.common.collect.BiMap;

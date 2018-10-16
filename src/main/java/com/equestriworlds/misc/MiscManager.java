@@ -1,36 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.ChatColor
- *  org.bukkit.GameMode
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.HumanEntity
- *  org.bukkit.entity.Item
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.entity.PlayerDeathEvent
- *  org.bukkit.event.inventory.InventoryClickEvent
- *  org.bukkit.event.inventory.InventoryOpenEvent
- *  org.bukkit.event.player.AsyncPlayerChatEvent
- *  org.bukkit.event.player.AsyncPlayerPreLoginEvent
- *  org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result
- *  org.bukkit.event.player.PlayerChangedWorldEvent
- *  org.bukkit.event.player.PlayerDropItemEvent
- *  org.bukkit.event.player.PlayerGameModeChangeEvent
- *  org.bukkit.event.player.PlayerInteractEntityEvent
- *  org.bukkit.event.player.PlayerInteractEvent
- *  org.bukkit.event.player.PlayerPickupItemEvent
- *  org.bukkit.event.player.PlayerTeleportEvent
- *  org.bukkit.inventory.Inventory
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.misc;
 
 import com.equestriworlds.MiniModule;

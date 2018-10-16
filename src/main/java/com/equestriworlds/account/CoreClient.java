@@ -1,9 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.account;
 
 import org.bukkit.entity.Player;

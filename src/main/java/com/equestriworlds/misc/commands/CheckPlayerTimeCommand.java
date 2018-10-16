@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.misc.commands;
 
 import com.equestriworlds.command.MultiCommandBase;

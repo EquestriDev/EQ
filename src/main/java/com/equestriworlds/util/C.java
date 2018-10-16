@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.ChatColor
- *  org.fusesource.jansi.Ansi
- *  org.fusesource.jansi.Ansi$Attribute
- *  org.fusesource.jansi.Ansi$Color
- */
 package com.equestriworlds.util;
 
 import java.util.EnumMap;

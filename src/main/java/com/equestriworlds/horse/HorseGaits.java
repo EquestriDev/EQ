@@ -1,29 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.AttributeInstance
- *  net.minecraft.server.v1_12_R1.EntityHorseAbstract
- *  net.minecraft.server.v1_12_R1.GenericAttributes
- *  net.minecraft.server.v1_12_R1.IAttribute
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.LivingEntity
- *  org.bukkit.entity.Player
- *  org.bukkit.entity.Vehicle
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.player.PlayerInteractEvent
- *  org.bukkit.event.vehicle.VehicleEnterEvent
- *  org.bukkit.event.vehicle.VehicleExitEvent
- *  org.bukkit.inventory.EquipmentSlot
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.horse;
 
 import com.equestriworlds.MiniModule;

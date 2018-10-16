@@ -1,15 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.Location
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.Server
- *  org.bukkit.Sound
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.C;

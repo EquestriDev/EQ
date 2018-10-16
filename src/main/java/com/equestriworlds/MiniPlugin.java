@@ -1,17 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Server
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.HandlerList
- *  org.bukkit.event.Listener
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.scheduler.BukkitScheduler
- *  org.bukkit.scheduler.BukkitTask
- */
 package com.equestriworlds;
 
 import com.equestriworlds.MiniModule;

@@ -1,16 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.entity.Horse
- *  org.bukkit.entity.Horse$Color
- *  org.bukkit.entity.Horse$Style
- *  org.bukkit.entity.Horse$Variant
- *  org.bukkit.entity.Llama
- *  org.bukkit.entity.Llama$Color
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.horse.config;
 
 import com.equestriworlds.horse.branding.Brand;

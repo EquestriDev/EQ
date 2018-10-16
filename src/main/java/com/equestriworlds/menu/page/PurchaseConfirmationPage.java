@@ -1,22 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.milkbowl.vault.economy.Economy
- *  net.milkbowl.vault.economy.EconomyResponse
- *  org.bukkit.Bukkit
- *  org.bukkit.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.Sound
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.scheduler.BukkitScheduler
- */
 package com.equestriworlds.menu.page;
 
 import com.equestriworlds.MiniPlugin;

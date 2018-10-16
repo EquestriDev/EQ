@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.UtilMath;

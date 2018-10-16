@@ -1,30 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.AttributeInstance
- *  net.minecraft.server.v1_12_R1.EntityHorseAbstract
- *  net.minecraft.server.v1_12_R1.GenericAttributes
- *  net.minecraft.server.v1_12_R1.IAttribute
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.EntityType
- *  org.bukkit.entity.Horse
- *  org.bukkit.entity.Horse$Color
- *  org.bukkit.entity.Horse$Style
- *  org.bukkit.entity.Horse$Variant
- *  org.bukkit.entity.Llama
- *  org.bukkit.entity.Llama$Color
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.inventory.meta.SpawnEggMeta
- */
 package com.equestriworlds.horse.gui.spawner;
 
 import com.equestriworlds.account.CoreClientManager;

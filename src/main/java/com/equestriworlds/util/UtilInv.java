@@ -1,25 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.World
- *  org.bukkit.enchantments.Enchantment
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.HumanEntity
- *  org.bukkit.entity.Item
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.InventoryAction
- *  org.bukkit.event.inventory.InventoryClickEvent
- *  org.bukkit.event.inventory.InventoryType
- *  org.bukkit.inventory.Inventory
- *  org.bukkit.inventory.ItemFlag
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.material.MaterialData
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.F;

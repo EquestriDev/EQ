@@ -1,26 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.md_5.bungee.api.ChatColor
- *  net.md_5.bungee.api.chat.BaseComponent
- *  net.md_5.bungee.api.chat.ClickEvent
- *  net.md_5.bungee.api.chat.ClickEvent$Action
- *  net.md_5.bungee.api.chat.ComponentBuilder
- *  net.md_5.bungee.api.chat.HoverEvent
- *  net.md_5.bungee.api.chat.HoverEvent$Action
- *  net.md_5.bungee.api.chat.TextComponent
- *  org.bukkit.Bukkit
- *  org.bukkit.Server
- *  org.bukkit.Server$Spigot
- *  org.bukkit.command.CommandSender
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.entity.Player
- *  org.bukkit.entity.Player$Spigot
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.player.AsyncPlayerChatEvent
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.certifications;
 
 import com.equestriworlds.MiniPlugin;

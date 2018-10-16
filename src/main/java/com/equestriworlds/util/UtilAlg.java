@@ -1,14 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.World
- *  org.bukkit.block.Block
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.UtilBlock;

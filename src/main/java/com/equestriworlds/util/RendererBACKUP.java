@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.entity.Player
- *  org.bukkit.map.MapCanvas
- *  org.bukkit.map.MapRenderer
- *  org.bukkit.map.MapView
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.Main;

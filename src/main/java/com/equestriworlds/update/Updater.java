@@ -1,14 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Server
- *  org.bukkit.event.Event
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.java.JavaPlugin
- *  org.bukkit.scheduler.BukkitScheduler
- */
 package com.equestriworlds.update;
 
 import com.equestriworlds.update.UpdateEvent;

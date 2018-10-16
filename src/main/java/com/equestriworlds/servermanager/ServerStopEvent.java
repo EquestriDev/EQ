@@ -1,10 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.event.Event
- *  org.bukkit.event.HandlerList
- */
 package com.equestriworlds.servermanager;
 
 import org.bukkit.event.Event;

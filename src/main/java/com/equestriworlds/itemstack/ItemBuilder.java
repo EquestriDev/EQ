@@ -1,18 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Bukkit
- *  org.bukkit.ChatColor
- *  org.bukkit.Color
- *  org.bukkit.Material
- *  org.bukkit.enchantments.Enchantment
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.inventory.meta.LeatherArmorMeta
- *  org.bukkit.inventory.meta.SkullMeta
- *  org.bukkit.potion.Potion
- */
 package com.equestriworlds.itemstack;
 
 import java.util.ArrayList;

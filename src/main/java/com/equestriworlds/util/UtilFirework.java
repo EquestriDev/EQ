@@ -1,25 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityFireworks
- *  net.minecraft.server.v1_12_R1.WorldServer
- *  org.bukkit.Color
- *  org.bukkit.FireworkEffect
- *  org.bukkit.FireworkEffect$Builder
- *  org.bukkit.FireworkEffect$Type
- *  org.bukkit.Location
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.CraftWorld
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftFirework
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.EntityType
- *  org.bukkit.entity.Firework
- *  org.bukkit.inventory.meta.FireworkMeta
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.util;
 
 import net.minecraft.server.v1_12_R1.EntityFireworks;

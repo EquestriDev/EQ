@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.intellectualcrafters.plot.api.PlotAPI
- *  com.intellectualcrafters.plot.object.Plot
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.barn.commands;
 
 import com.equestriworlds.MiniPlugin;

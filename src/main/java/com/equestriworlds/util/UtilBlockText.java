@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.World
- *  org.bukkit.block.Block
- *  org.bukkit.block.BlockFace
- */
 package com.equestriworlds.util;
 
 import com.equestriworlds.util.MapUtil;

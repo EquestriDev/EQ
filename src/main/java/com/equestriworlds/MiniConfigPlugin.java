@@ -1,12 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds;
 
 import com.equestriworlds.MiniConfig;

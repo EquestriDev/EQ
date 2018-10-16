@@ -1,13 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.milkbowl.vault.economy.Economy
- *  net.milkbowl.vault.economy.EconomyResponse
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- */
 package com.equestriworlds.horse.command.brand;
 
 import com.equestriworlds.MiniPlugin;

@@ -1,10 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.event.HandlerList
- *  org.bukkit.event.Listener
- */
 package com.equestriworlds;
 
 import com.equestriworlds.MiniPlugin;

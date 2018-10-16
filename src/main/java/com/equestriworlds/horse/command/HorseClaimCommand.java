@@ -1,20 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.md_5.bungee.api.ChatColor
- *  org.bukkit.Location
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.AbstractHorse
- *  org.bukkit.entity.AnimalTamer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.LivingEntity
- *  org.bukkit.entity.Player
- *  org.bukkit.entity.Tameable
- *  org.bukkit.potion.PotionEffect
- *  org.bukkit.potion.PotionEffectType
- */
 package com.equestriworlds.horse.command;
 
 import com.equestriworlds.MiniPlugin;

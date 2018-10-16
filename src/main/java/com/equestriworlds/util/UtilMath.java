@@ -1,11 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.entity.Entity
- *  org.bukkit.util.Vector
- */
 package com.equestriworlds.util;
 
 import java.text.DecimalFormat;

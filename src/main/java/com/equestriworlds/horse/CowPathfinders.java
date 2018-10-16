@@ -1,18 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.Entity
- *  net.minecraft.server.v1_12_R1.EntityCreature
- *  net.minecraft.server.v1_12_R1.EntityHuman
- *  net.minecraft.server.v1_12_R1.PathfinderGoal
- *  net.minecraft.server.v1_12_R1.PathfinderGoalAvoidTarget
- *  org.bukkit.World
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.EntityType
- *  org.bukkit.event.EventHandler
- */
 package com.equestriworlds.horse;
 
 import com.equestriworlds.MiniModule;

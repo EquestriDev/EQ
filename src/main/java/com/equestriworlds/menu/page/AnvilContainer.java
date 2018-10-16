@@ -1,22 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.Container
- *  net.minecraft.server.v1_12_R1.EntityHuman
- *  net.minecraft.server.v1_12_R1.IInventory
- *  net.minecraft.server.v1_12_R1.InventoryLargeChest
- *  net.minecraft.server.v1_12_R1.PlayerInventory
- *  net.minecraft.server.v1_12_R1.Slot
- *  org.bukkit.craftbukkit.v1_12_R1.entity.CraftHumanEntity
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventory
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventoryDoubleChest
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventoryPlayer
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventoryView
- *  org.bukkit.entity.HumanEntity
- *  org.bukkit.inventory.Inventory
- *  org.bukkit.inventory.InventoryView
- */
 package com.equestriworlds.menu.page;
 
 import net.minecraft.server.v1_12_R1.Container;

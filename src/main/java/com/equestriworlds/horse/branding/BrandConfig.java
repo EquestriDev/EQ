@@ -1,15 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.google.gson.Gson
- *  org.bukkit.Bukkit
- *  org.bukkit.configuration.ConfigurationSection
- *  org.bukkit.configuration.InvalidConfigurationException
- *  org.bukkit.configuration.MemoryConfigurationOptions
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.configuration.file.YamlConfigurationOptions
- */
 package com.equestriworlds.horse.branding;
 
 import com.equestriworlds.horse.branding.Brand;

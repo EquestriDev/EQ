@@ -1,13 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.Location
- *  org.bukkit.Material
- *  org.bukkit.Sound
- *  org.bukkit.entity.Player
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.recharge;
 
 import com.equestriworlds.recharge.Recharge;

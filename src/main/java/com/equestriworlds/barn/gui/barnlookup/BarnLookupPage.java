@@ -1,21 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.intellectualcrafters.plot.api.PlotAPI
- *  com.intellectualcrafters.plot.object.Plot
- *  net.milkbowl.vault.economy.Economy
- *  net.milkbowl.vault.economy.EconomyResponse
- *  org.apache.commons.lang.StringUtils
- *  org.bukkit.Bukkit
- *  org.bukkit.Material
- *  org.bukkit.OfflinePlayer
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.inventory.ClickType
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.meta.ItemMeta
- */
 package com.equestriworlds.barn.gui.barnlookup;
 
 import com.equestriworlds.account.CoreClientManager;

@@ -1,9 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.inventory.ItemStack
- */
 package com.equestriworlds.itemstack;
 
 import java.util.ArrayList;

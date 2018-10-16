@@ -1,21 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  com.intellectualcrafters.plot.api.PlotAPI
- *  com.intellectualcrafters.plot.object.Plot
- *  com.plotsquared.bukkit.events.PlotDeleteEvent
- *  net.milkbowl.vault.economy.Economy
- *  org.bukkit.Bukkit
- *  org.bukkit.Server
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.RegisteredServiceProvider
- *  org.bukkit.plugin.ServicesManager
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.barn;
 
 import com.equestriworlds.MiniPlugin;

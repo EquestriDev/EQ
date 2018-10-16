@@ -1,10 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.minecraft.server.v1_12_R1.IProgressUpdate
- *  net.minecraft.server.v1_12_R1.MinecraftServer
- */
 package com.equestriworlds.util;
 
 import java.io.PrintStream;

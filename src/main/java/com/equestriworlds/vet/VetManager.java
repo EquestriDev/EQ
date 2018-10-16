@@ -1,36 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  net.milkbowl.vault.economy.Economy
- *  net.minecraft.server.v1_12_R1.ItemStack
- *  net.minecraft.server.v1_12_R1.NBTBase
- *  net.minecraft.server.v1_12_R1.NBTTagCompound
- *  org.apache.commons.io.FileUtils
- *  org.bukkit.Bukkit
- *  org.bukkit.Material
- *  org.bukkit.Server
- *  org.bukkit.configuration.ConfigurationSection
- *  org.bukkit.configuration.file.YamlConfiguration
- *  org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack
- *  org.bukkit.entity.Entity
- *  org.bukkit.entity.Player
- *  org.bukkit.event.EventHandler
- *  org.bukkit.event.block.Action
- *  org.bukkit.event.player.PlayerInteractEvent
- *  org.bukkit.event.server.MapInitializeEvent
- *  org.bukkit.inventory.ItemStack
- *  org.bukkit.inventory.PlayerInventory
- *  org.bukkit.inventory.meta.ItemMeta
- *  org.bukkit.map.MapRenderer
- *  org.bukkit.map.MapView
- *  org.bukkit.map.MapView$Scale
- *  org.bukkit.plugin.Plugin
- *  org.bukkit.plugin.PluginManager
- *  org.bukkit.plugin.RegisteredServiceProvider
- *  org.bukkit.plugin.ServicesManager
- *  org.bukkit.plugin.java.JavaPlugin
- */
 package com.equestriworlds.vet;
 
 import com.equestriworlds.Main;

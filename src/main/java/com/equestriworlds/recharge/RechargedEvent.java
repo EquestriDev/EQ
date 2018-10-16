@@ -1,11 +1,3 @@
-/*
- * Decompiled with CFR 0_133.
- * 
- * Could not load the following classes:
- *  org.bukkit.entity.Player
- *  org.bukkit.event.Event
- *  org.bukkit.event.HandlerList
- */
 package com.equestriworlds.recharge;
 
 import org.bukkit.entity.Player;
