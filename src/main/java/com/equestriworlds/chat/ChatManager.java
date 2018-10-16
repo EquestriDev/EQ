@@ -24,6 +24,12 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Chat and command interceptor
+ * Staff chat
+ * /gamemode, /gm, /gms, /gmc (cancel with purchase message)
+ * Messaging utility
+ */
 public class ChatManager
 extends MiniPlugin {
     public HashMap<Player, Player> prevMes = new HashMap();

@@ -7,6 +7,10 @@ import com.equestriworlds.menu.MenuBase;
 import com.equestriworlds.menu.page.MenuPageBase;
 import org.bukkit.entity.Player;
 
+/**
+ * /brandlist, /bl (Unused?)
+ * Brand chest menu
+ */
 public class BrandListMenu
 extends MenuBase<HorseManager> {
     public BrandListMenu(HorseManager plugin, CoreClientManager clientManager, String playerView) {

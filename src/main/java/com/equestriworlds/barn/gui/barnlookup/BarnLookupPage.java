@@ -32,6 +32,10 @@ import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/**
+ * /barn command.
+ * Chest menu for purchased barn buildings
+ */
 public class BarnLookupPage
 extends MenuPageBase<BarnManager, BarnLookupMenu> {
     private int _page;

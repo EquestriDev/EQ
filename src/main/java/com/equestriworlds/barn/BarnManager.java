@@ -26,6 +26,9 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.ServicesManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Manage barns with PlotSquared
+ */
 public class BarnManager
 extends MiniPlugin {
     public CoreClientManager clientManager;

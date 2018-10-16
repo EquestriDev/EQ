@@ -17,6 +17,9 @@ import java.io.Writer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * IO: Copy, delete...
+ */
 public class FileUtil {
     private static void DeleteFolder(File folder) {
         if (!folder.exists()) {

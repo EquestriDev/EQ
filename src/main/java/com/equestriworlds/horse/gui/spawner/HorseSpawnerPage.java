@@ -36,6 +36,9 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SpawnEggMeta;
 
+/**
+ * Custom chest menu for spawning horses.
+ */
 public class HorseSpawnerPage
 extends MenuPageBase<HorseManager, HorseSpawnerMenu> {
     private HorseSpawnerPageType pageType;

@@ -29,6 +29,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
+/**
+ * CrosstiedHorse, CrosstiedHorseToken
+ * Tie horse to two leashes at once. I think.
+ */
 public class CrosstiesManager
 extends MiniPlugin {
     private HashMap<CustomHorse, CrosstiedHorse> horses = new HashMap();

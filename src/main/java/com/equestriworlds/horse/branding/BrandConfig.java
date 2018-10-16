@@ -26,6 +26,9 @@ import org.bukkit.configuration.MemoryConfigurationOptions;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.configuration.file.YamlConfigurationOptions;
 
+/**
+ * Global brands persistence file
+ */
 public class BrandConfig
 extends YamlConfiguration {
     public HashMap<UUID, Brand> brands = new HashMap();

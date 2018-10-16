@@ -25,6 +25,11 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * A general purpose cooldown mechanism of sorts.
+ * Recharge, Data, Event
+ * RechargedEvent
+ */
 public class Recharge
 extends MiniPlugin {
     public static Recharge Instance;

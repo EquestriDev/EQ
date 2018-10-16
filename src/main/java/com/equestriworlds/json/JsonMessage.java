@@ -16,6 +16,9 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
+/**
+ * Raw message abstraction.
+ */
 public class JsonMessage {
     StringBuilder Builder;
 

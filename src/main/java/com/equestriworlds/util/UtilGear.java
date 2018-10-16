@@ -4,6 +4,9 @@ import java.util.HashSet;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Gear type and quality tagging
+ */
 public class UtilGear {
     private static HashSet<Material> _axeSet = new HashSet();
     private static HashSet<Material> _swordSet = new HashSet();

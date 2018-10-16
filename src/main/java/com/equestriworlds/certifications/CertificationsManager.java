@@ -25,6 +25,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Chat quiz for certifications
+ */
 public class CertificationsManager
 extends MiniPlugin {
     public HashMap<Player, TestingPlayer> test = new HashMap();

@@ -12,6 +12,9 @@ import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Cooldowns
+ */
 public class RechargeData {
     public Recharge Host;
     public long Time;

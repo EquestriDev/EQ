@@ -42,6 +42,10 @@ import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/**
+ * /brandlist, /bl (Unused?)
+ * Brand chest menu
+ */
 public class BrandListPage
 extends MenuPageBase<HorseManager, BrandListMenu> {
     private int _page;

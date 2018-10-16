@@ -15,6 +15,9 @@ import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Vet command
+ */
 public class HorseBreedingMakeBabyCommand
 extends CommandBase<HorseManager> {
     public HorseBreedingMakeBabyCommand(HorseManager plugin) {

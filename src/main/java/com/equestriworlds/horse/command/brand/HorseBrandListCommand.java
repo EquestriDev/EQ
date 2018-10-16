@@ -8,6 +8,9 @@ import com.equestriworlds.horse.HorseManager;
 import com.equestriworlds.horse.branding.list.BrandListMenu;
 import org.bukkit.entity.Player;
 
+/**
+ * Unused command?
+ */
 public class HorseBrandListCommand
 extends CommandBase<HorseManager> {
     public HorseBrandListCommand(HorseManager plugin) {

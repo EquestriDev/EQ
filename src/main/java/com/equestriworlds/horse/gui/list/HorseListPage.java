@@ -41,6 +41,9 @@ import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/**
+ * Horse chest menu; with staff options.
+ */
 public class HorseListPage
 extends MenuPageBase<HorseManager, HorseListMenu> {
     private int _page;

@@ -22,6 +22,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * /barn shop
+ * Chest shop to buy arenas
+ */
 public class BarnShopArenasPage
 extends MenuPageBase<BarnManager, BarnShopMenu> {
     private MenuPageBase<BarnManager, BarnShopMenu> m;

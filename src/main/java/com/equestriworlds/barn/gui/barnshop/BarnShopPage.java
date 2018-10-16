@@ -29,6 +29,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * /barn shop
+ * Chest menu to buy barn supplies.
+ */
 public class BarnShopPage
 extends MenuPageBase<BarnManager, BarnShopMenu> {
     private Plot plot;

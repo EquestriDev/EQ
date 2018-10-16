@@ -20,6 +20,9 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Command and complete interceptor
+ */
 public class CommandCenter
 implements Listener {
     public static CommandCenter Instance;

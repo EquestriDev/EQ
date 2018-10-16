@@ -31,6 +31,9 @@ import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;
 
+/**
+ * Needlessly generic player routines. Mostly what SpigotAPI can do. getMaxJump Rank based horse info
+ */
 public class UtilPlayer {
     private static boolean hasIntersection(Vector3D p1, Vector3D p2, Vector3D min, Vector3D max) {
         double epsilon = 9.999999747378752E-5;

@@ -1,0 +1,219 @@
+The Util classes contain many methods and fields which are not used anywhere. Where they copied from somewhere?
+
+ 21745 total
+   718 itemstack/ItemStackFactory.java // Way overengineered item creation
+   635 horse/gui/spawner/HorseSpawnerPage.java // Custom chest menu for spawning horses.
+   551 util/UtilEnt.java // Entity routines, some useful, some recreating what SpigotAPI can do. Mostly unused. Copied from somewhere else?
+   524 util/UtilPlayer.java // Needlessly generic player routines. Mostly what SpigotAPI can do. getMaxJump Rank based horse info
+   470 horse/HorseManager.java // MiniPlugin, Econ, Events, housekeeping, spawn/remove on chunk load/unload
+   454 grooming/GroomingManager.java // Grooming event handlers. Texture Pack, Cooldowns!
+   447 util/UtilGson.java // Bloated mess; only getPrettyGson is called externally
+   446 util/UtilBlock.java // Block properties such as transparency. Doubling what's already done in Bukkit
+?  443 vet/surgery/SurgeryPage.java // ex MenuPageBase, Unfinished quiz of sorts
+   439 horse/config/CustomHorse.java // contains Token, many setters with Entity writethrough, entity update methods
+   326 horse/gui/list/HorseListPage.java // Horse chest menu; with staff options
+   319 horse/breeding/HorseBreeding.java // Event handler for breeding. Check various custom attributes (gender, age, breed, etc), then make pregnant; Runnable with timers for birthing and cooldowns; inheritance function
+   300 itemstack/ItemBuilder.java // Simple item stack factory
+   270 util/UtilAlg.java // Algebra utils
+   270 barn/gui/barnlookup/BarnLookupPage.java // /barn; chest menu for purchased barn buildings
+   265 menu/page/MenuPageBase.java // Chest Menu
+   260 horse/branding/list/BrandListPage.java // /brandlist, /bl, Brand chest menu; unused
+   249 horse/lunging/LungingManager.java // Make horse lunge around you via fishing rod.
+   247 util/UtilInv.java // Inventory and Item utility.
+?  242 misc/MiscManager.java // Various guards and a silent ban which was removed.
+   231 util/MapUtil.java // Unused HashMap functions; removed
+   224 menu/MenuBase.java // Chest menus
+   218 util/UtilBlockText.java // Unused block functions. Probably text to blocks? Removed.
+   210 recharge/Recharge.java // Cooldown framework of sorts
+   210 menu/page/AnvilPageBase.java // Unused; removed
+   195 horse/HorseGaits.java // Event handler for whipping horse with stick while riding.
+   194 horse/config/HorseConfig.java // Global horse persistence
+   189 util/F.java // Chat format and color utility.
+   187 util/UtilTime.java // Time difference and format utility.
+   187 menu/page/PurchaseConfirmationPage.java // Chest menu
+   187 barn/gui/barnshop/BarnShopPage.java // Chest menu to buy barn supplies.
+   185 vet/VetManager.java // Economy, gunpowder item, load some maps.
+   180 barn/gui/barnshop/BarnShopArenasPage.java // Chest shop to buy arenas
+   170 certifications/CertificationsManager.java // Chat quiz for certifications
+   167 horse/pathfinders/HorseFollowPathfinder.java // NBT pathfinder for horse.
+   164 menu/item/ShopItem.java // Yet another item abstraction which extends ItemStack
+   158 horse/pathfinders/HorseBreedPathfinder.java // NBT pathfinder for horses
+   150 util/C.java // Chat color constants and formatting.
+   149 grooming/CrosstiesManager.java // Tie horse to two leashes at once.
+   148 MiniPlugin.java // Superclass of many components. Event registration and task management.
+   146 util/ZipUtil.java // Zip IO utils; unused and removed
+   146 horse/command/vet/breeding/HorseBreedingForceBirthCommand.java // Vet command
+   144 util/UtilHorse.java // Unused mess; probably decompiled; removed
+   141 json/JsonMessage.java // Raw message abstraction.
+   138 util/UtilGear.java // Gear type and quality tagging
+   135 horse/command/HorseClaimCommand.java // /horse claim
+   133 command/CommandCenter.java // Command and complete interceptor
+   133 barn/BarnManager.java // Manage barns with PlotSquared
+   126 util/FileUtil.java // IO: Copy, delete...
+   126 horse/branding/BrandConfig.java // Global brands persistence file
+   126 common/Rank.java // Rank enum with additional info. Get rank from permission.
+   119 chat/ChatManager.java // Chat and command interceptor for staff chat, shop awareness, messagin utility
+   118 command/CommandBase.java // Superclass of commands
+   114 horse/command/vet/breeding/HorseBreedingMakeBabyCommand.java // Vet command
+   113 account/CoreClientManager.java
+   103 horse/command/HorseCommand.java
+   101 barn/gui/barnshop/BarnShopStallsPage.java
+    98 util/UtilTabList.java // Unused; removed
+    98 util/ProtocolInjector.java // Unused; removed
+    97 util/UUIDFetcher.java // Mojang API uuid tools; Unused and removed
+    96 horse/command/admin/HorseAdminSetColorCommand.java
+    95 certifications/commands/CertificationStartCommand.java
+    93 MiniConfig.java
+    90 recharge/RechargeData.java
+    88 Main.java
+    86 misc/commands/PlayerCountdownCommand.java
+    86 horse/command/home/HorseHomeCommand.java
+    86 horse/command/brand/HorseBrandCommand.java
+    86 horse/command/admin/HorseAdminCommand.java
+    85 util/UtilMath.java
+    85 util/UtilEvent.java
+    84 certifications/enums/Discipline.java
+    82 util/UtilFirework.java // OBC Fireworks; unused and removed.
+    82 command/MultiCommandBase.java
+    79 rpmanager/ResourcePackManager.java
+    79 horse/command/vet/HorseVetXrayCommand.java
+    79 horse/command/admin/HorseAdminRemoveCommand.java
+    78 misc/events/AnimalTeleportEvent.java // Unused and removed
+    78 MiniConfigPlugin.java
+    77 horse/command/admin/HorseAdminSetStyleCommand.java
+    76 horse/command/vet/breeding/HorseBreedingtestBreedCommand.java
+    74 servermanager/ServerManager.java // Shutdown routines. Unused and removed.
+    74 horse/command/brand/admin/HorseUnBrandCommand.java
+    73 horse/command/vet/HorseVetSymptomsCommand.java
+    72 menu/page/AnvilContainer.java // Unused; removed
+    72 horse/command/brand/HorseBrandRegisterCommand.java
+    71 util/UtilServer.java
+    71 horse/command/trust/HorseTrustRemoveCommand.java
+    71 horse/command/HorseCallCommand.java
+    71 horse/command/friend/HorseFriendRemoveCommand.java
+    70 vet/enums/Symptom.java
+    70 horse/command/HorseTeleportCommand.java
+    69 horse/command/HorseRearCommand.java // Command to make horse walk. Unused and removed.
+    69 horse/command/HorseComeCommand.java // Command to make horse walk. Unused and removed.
+    69 horse/command/brand/admin/HorseDeleteBrandCommand.java
+    67 horse/config/CustomHorseToken.java
+    67 horse/command/HorseChangeIdCommand.java
+    66 itemstack/ItemLayout.java
+    66 horse/command/HorseFollowCommand.java
+    66 horse/command/admin/HorseAdminGenderCommand.java
+    65 chat/command/AdminChatCommand.java
+    64 horse/command/trust/HorseTrustCommand.java
+    64 horse/command/friend/HorseFriendCommand.java
+    64 horse/command/friend/HorseFriendAddCommand.java
+    64 horse/command/brand/brandowner/HorseBrandOwnerCommand.java
+    64 horse/command/brand/brandowner/HorseBrandOwnerAddCommand.java
+    63 MiniModule.java
+    63 json/ChildJsonMessage.java
+    60 horse/command/trust/HorseTrustAddCommand.java
+    59 update/UpdateType.java
+    59 horse/command/HorseGiveCommand.java
+    59 horse/command/brand/brandowner/HorseBrandOwnerRemoveCommand.java
+    58 horse/CowPathfinders.java
+    58 horse/command/HorseRenameCommand.java
+    58 horse/command/home/HorseListHomeCommand.java
+    58 horse/command/admin/HorseAdminSpawnCommand.java
+    58 horse/command/admin/HorseAdminDismountAllCommand.java
+    56 util/UtilAction.java
+    56 horse/command/home/HorseAddHomeCommand.java
+    56 horse/command/friend/HorseFriendListCommand.java
+    56 horse/command/brand/brandowner/HorseBrandOwnerListCommand.java
+    55 util/Renderer.java
+    55 util/RendererBACKUP.java // A cache for rendered images; unused and removed.
+    55 horse/command/trust/HorseTrustListCommand.java
+    55 horse/command/admin/HorseAdminDespawnCommand.java
+    54 util/UtilField.java
+    54 horse/command/vet/breeding/HorseBreedingAbortCommand.java
+    53 rpmanager/commands/ResourcePackCommand.java
+    53 horse/command/vet/HorseVetCommand.java
+    53 horse/command/HorseAccessCommand.java
+    53 horse/command/admin/HorseAdminAgeCommand.java
+    53 barn/BarnConfig.java
+    52 horse/command/home/HorseDelHomeCommand.java
+    52 horse/command/admin/HorseAdminSetSpeedCommand.java
+    52 horse/command/admin/HorseAdminSetJumpCommand.java
+    51 util/UtilTextBottom.java
+    51 recharge/RechargeEvent.java
+    51 misc/commands/CheckPlayerTimeCommand.java
+    51 horse/command/HorseFindCommand.java
+    51 horse/command/admin/HorseAdminFreeCommand.java
+    49 horse/command/HorseFreeCommand.java
+    48 util/UtilTextMiddle.java
+    48 horse/command/admin/HorseAdminToggleSaleCommand.java
+    48 barn/commands/BarnSeeCommand.java
+    46 horse/command/home/HorseHomeAllCommand.java
+    46 horse/command/admin/HorseAdminCallCommand.java
+    45 chat/command/AdminReplyCommand.java
+    44 horse/command/admin/HorseAdminDeleteCommand.java
+    43 horse/command/HorseInfoCommand.java
+    43 horse/command/HorseConditionCommand.java
+    42 util/UtilParticle.java // Unused; removed
+    42 prefs/PreferenceManager.java
+    41 recharge/RechargedEvent.java
+    41 certifications/configurations/configuration.java
+    41 certifications/commands/CertificationListCommand.java
+    40 horse/event/HorseTrustRemoveEvent.java
+    40 horse/event/HorseFriendRemoveEvent.java
+    40 account/event/ClientLoadEvent.java
+    40 account/CoreClient.java
+    39 update/Updater.java
+    39 misc/EquestriWorldsHooks.java
+    39 horse/command/HorseListCommand.java
+    39 horse/command/brand/admin/HorseBrandAdminCommand.java
+    38 chat/command/AdminMessageCommand.java
+    36 vet/enums/Disease.java
+    36 horse/command/vet/HorseVetSurgeryCommand.java
+    36 chat/command/StaffBroadcastCommand.java
+    36 certifications/commands/CertificationCommand.java
+    36 barn/commands/BarnCommand.java
+    35 horse/command/admin/HorseAdminBypassCommand.java
+    34 update/UpdateEvent.java
+    33 vet/config.java
+    33 util/ConvertProgressUpdater.java // obfuscated stub; unused and removed
+    33 json/Color.java
+    33 account/event/ClientUnloadEvent.java
+    32 prefs/command/PreferenceChatCommand.java
+    31 misc/commands/TestingCommand.java
+    31 command/ICommand.java
+    30 rpmanager/ResourcePack.java
+    29 horse/gui/spawner/HorseSpawnerMenu.java
+    29 horse/gui/list/HorseListMenu.java
+    29 horse/command/brand/HorseBrandListCommand.java /brandlist, /bl, Brand chest menu; unused
+    29 common/DummyEntity.java
+    29 common/CurrencyType.java
+    28 barn/commands/BarnShopCommand.java
+    27 vet/enums/HappySymptom.java
+    27 servermanager/ServerStopEvent.java
+    27 horse/config/HorseAccess.java
+    27 grooming/Objects/GroomedHorseToken.java
+    26 vet/surgery/SurgeryMenu.java
+    26 prefs/command/PreferenceCommand.java
+    26 horse/breeding/breedingStages.java // Enum for breeding
+    26 horse/branding/list/BrandListMenu.java /brandlist, /bl, Brand chest menu; unused
+    26 barn/gui/barnshop/BarnShopMenu.java
+    26 barn/gui/barnlookup/BarnLookupMenu.java
+    24 horse/branding/list/BrandListSorter.java // Comparator
+    24 horse/branding/Brand.java
+    23 util/UtilBossBar.java // Unused stub; removed
+    23 horse/gui/list/HorseListSorter.java
+    23 horse/command/admin/HorseAdminTestCommand.java
+    23 certifications/enums/TestingPlayer.java
+    22 horse/config/Gender.java
+    21 json/ClickEvent.java
+    20 json/HoverEvent.java
+    19 menu/item/IDisplayPackage.java // Unused; stub interface; removed
+    19 horse/gui/spawner/HorseSpawnerPageType.java
+    17 prefs/Preference.java
+    17 grooming/Objects/GroomedHorse.java
+    17 grooming/Objects/CrosstiedHorse.java
+    16 horse/pathfinders/HorseComePathfinder.java // Unused and stub; removed
+    15 menu/item/IButton.java
+    14 horse/flying/FlyingHorse.java // Unused stub; removed
+    14 horse/branding/BrandToken.java
+    14 grooming/Objects/CrosstiedHorseToken.java
+    12 certifications/enums/TestingPlayerToken.java
+     8 util/Callback.java // Unused; removed

@@ -14,6 +14,9 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;
 
+/**
+ * Algebra utility methods
+ */
 public class UtilAlg {
     public static TreeSet<String> sortKey(Set<String> toSort) {
         TreeSet<String> sortedSet = new TreeSet<String>();

@@ -38,6 +38,9 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.ServicesManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Economy, gunpowder item, load some maps.
+ */
 public class VetManager
 extends MiniPlugin {
     public Economy eco;
@@ -62,6 +65,9 @@ extends MiniPlugin {
         return this.eco != null;
     }
 
+    /**
+     * Mark sulphur/gunpowder named "Mange Spray" with nbt tags.
+     */
     @EventHandler
     public void onUse(PlayerInteractEvent event) {
         int uses;
@@ -109,6 +115,9 @@ extends MiniPlugin {
         player.getInventory().setItemInMainHand(spigotItem);
     }
 
+    /**
+     * Turn map with id #11 into xray.png
+     */
     @EventHandler
     public void onMapLoad(MapInitializeEvent event) {
         MapView mapView = event.getMap();

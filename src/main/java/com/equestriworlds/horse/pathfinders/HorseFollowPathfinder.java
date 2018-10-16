@@ -32,6 +32,9 @@ import org.bukkit.event.Event;
 import org.bukkit.event.entity.EntityTeleportEvent;
 import org.bukkit.plugin.PluginManager;
 
+/**
+ * NBT pathfinder for horse.
+ */
 public class HorseFollowPathfinder
 extends PathfinderGoal {
     private final CustomHorse customhorse;

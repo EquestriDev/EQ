@@ -37,6 +37,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
+/**
+ * Event handler for breeding.
+ * Check various custom attributes (gender, age, breed, etc), then make pregnant.
+ * Runnable with timers for birthing and cooldowns.
+ * Create foal with trait inheritance.
+ */
 public class HorseBreeding
 extends MiniModule<HorseManager> {
     public HorseBreeding(HorseManager plugin) {

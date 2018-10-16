@@ -24,6 +24,9 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryView;
 
+/**
+ * Chest menus
+ */
 public abstract class MenuBase<PluginType extends MiniPlugin>
 implements Listener {
     private HashMap<String, Long> _errorThrottling;

@@ -30,6 +30,11 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 import org.bukkit.util.Vector;
 
+/**
+ * Put horse on a fishing rod and make it run around.
+ * Circular horse movement around player is achieved via teleportation.
+ * Nice effect, but not respecting terrain.
+ */
 public class LungingManager
 extends MiniModule<HorseManager> {
     private HashMap<Player, Integer> gaits = new HashMap();
@@ -130,6 +135,10 @@ extends MiniModule<HorseManager> {
         }
     }
 
+    /**
+     * Make horse lunge.
+     * Uses simple teleportation.
+     */
     private void lunge(final AbstractHorse horse, final Player player) {
         this.sendTitle(player);
         if (horse.hasAI()) {

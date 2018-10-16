@@ -41,6 +41,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
+/**
+ * Bloated mess; only getPrettyGson is called externally.
+ */
 public class UtilGson {
     private static Gson g = new Gson();
     private static final String CLASS_KEY = "SERIAL-ADAPTER-CLASS-KEY";

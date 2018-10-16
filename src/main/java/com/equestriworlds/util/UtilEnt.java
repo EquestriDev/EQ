@@ -46,6 +46,11 @@ import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;
 
+/**
+ * Entity routines, some useful, some recreating what SpigotAPI can
+ * do. Mostly unused. Copied from somewhere else?
+ * Pathfinders!
+ */
 public class UtilEnt {
     private static HashMap<Entity, String> _nameMap = new HashMap();
     private static HashMap<String, EntityType> creatureMap = new HashMap();

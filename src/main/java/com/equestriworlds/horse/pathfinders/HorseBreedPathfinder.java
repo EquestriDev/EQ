@@ -25,6 +25,9 @@ import org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.bukkit.event.entity.EntityBreedEvent;
 
+/**
+ * NBT pathfinder for horses
+ */
 public class HorseBreedPathfinder
 extends PathfinderGoal {
     private final EntityAnimal animal;

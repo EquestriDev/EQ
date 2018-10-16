@@ -29,6 +29,9 @@ import org.bukkit.entity.Tameable;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
+/**
+ * /horse claim
+ */
 public class HorseClaimCommand
 extends CommandBase<HorseManager> {
     HorseClaimCommand(HorseManager plugin) {

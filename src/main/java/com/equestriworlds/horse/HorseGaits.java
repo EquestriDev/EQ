@@ -34,6 +34,9 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.util.Vector;
 
+/**
+ * Event handler for whipping horse with stick while riding.
+ */
 public class HorseGaits
 extends MiniModule<HorseManager> {
     private HashMap<Player, Integer> gaits = new HashMap();

@@ -10,6 +10,10 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import ru.tehkode.permissions.bukkit.PermissionsEx;
 
+/**
+ * Ranks enum with additional info.
+ * Get rank from permission.
+ */
 public enum Rank {
     OWNER("Owner", "ew.owner", ChatColor.AQUA, "a"),
     COOWNER("Co-Owner", "ew.coowner", ChatColor.DARK_AQUA, "b"),

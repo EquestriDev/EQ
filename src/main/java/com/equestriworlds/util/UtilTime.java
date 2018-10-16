@@ -6,6 +6,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * Time difference and format utility.
+ */
 public class UtilTime {
     public static final String DATE_FORMAT_NOW = "MM-dd-yyyy HH:mm:ss";
     public static final String DATE_FORMAT_DAY = "MM-dd-yyyy";

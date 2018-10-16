@@ -34,7 +34,6 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 import org.bukkit.event.player.PlayerChangedWorldEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerGameModeChangeEvent;
@@ -45,6 +44,19 @@ import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Chat format.
+ *
+ * Various world/gamemode related guards.
+ * Black market guard.
+ * Creative guard.
+ * GMC guard.
+ * Block place guard.
+ *
+ * Silent ban players "Dithuzad" and "kingofthelandfil" (removed)
+ *
+ * Horse follow teleport.
+ */
 public class MiscManager
 extends MiniModule<HorseManager> {
     private ArrayList<Material> disabledItems = new ArrayList();
@@ -170,13 +182,6 @@ extends MiniModule<HorseManager> {
         if (event.getEntity().getGameMode().equals((Object)GameMode.CREATIVE)) {
             event.getDrops().clear();
             UtilPlayer.message((Entity)event.getEntity().getPlayer(), F.main("Creative Manager", (Object)ChatColor.RED + "Your inventory has been cleared as you died in creative!"));
-        }
-    }
-
-    @EventHandler
-    public void onJoin(AsyncPlayerPreLoginEvent event) {
-        if (event.getName().equalsIgnoreCase("Dithuzad") || event.getName().equalsIgnoreCase("kingofthelandfil")) {
-            event.disallow(AsyncPlayerPreLoginEvent.Result.KICK_FULL, "Failed to login: The authentication servers are currently down for maintenance");
         }
     }
 

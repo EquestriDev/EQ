@@ -26,6 +26,9 @@ import org.bukkit.entity.Horse;
 import org.bukkit.entity.Llama;
 import org.bukkit.entity.Player;
 
+/**
+ * Vet command
+ */
 public class HorseBreedingForceBirthCommand
 extends CommandBase<HorseManager> {
     public HorseBreedingForceBirthCommand(HorseManager plugin) {

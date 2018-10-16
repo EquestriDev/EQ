@@ -70,6 +70,10 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.ServicesManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Economy, Events, housekeeping.
+ * Spawn/remove on chunk load/unload.
+ */
 public class HorseManager
 extends MiniPlugin {
     public CoreClientManager clientManager;

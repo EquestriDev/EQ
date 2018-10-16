@@ -32,6 +32,10 @@ import org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
 import org.bukkit.entity.Player;
 
+/**
+ * File storage for all horses.
+ * IO and some routines.
+ */
 public class HorseConfig
 extends YamlConfiguration {
     public HashMap<String, CustomHorse> horses = new HashMap();

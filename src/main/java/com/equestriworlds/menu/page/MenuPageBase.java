@@ -33,6 +33,9 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Chest Menu
+ */
 public abstract class MenuPageBase<PluginType extends MiniPlugin, ShopType extends MenuBase<PluginType>>
 extends CraftInventoryCustom
 implements Listener {

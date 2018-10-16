@@ -25,6 +25,9 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.material.MaterialData;
 
+/**
+ * Inventory and Item utility.
+ */
 public class UtilInv {
     public static void addGlow(ItemStack stack) {
         ItemMeta meta = stack.getItemMeta();

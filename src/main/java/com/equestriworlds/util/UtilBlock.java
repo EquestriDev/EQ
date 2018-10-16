@@ -14,6 +14,10 @@ import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Block properties such as transparency.
+ * Doubling what can already be done via Bukkit.
+ */
 public class UtilBlock {
     public static HashSet<Byte> blockUseSet = new HashSet();
     public static HashSet<Byte> fullSolid = new HashSet();

@@ -53,6 +53,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Many setters with Entity writethrough.
+ * Entity update methods.
+ */
 public class CustomHorse {
     public String id;
     public CustomHorseToken token;

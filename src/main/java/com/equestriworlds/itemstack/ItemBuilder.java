@@ -18,6 +18,9 @@ import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.potion.Potion;
 
+/**
+ * Simple item stack factory.
+ */
 public class ItemBuilder {
     private int _amount;
     private Color _color;

@@ -14,6 +14,9 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Superclass of commands
+ */
 public abstract class CommandBase<PluginType extends MiniPlugin>
 implements ICommand {
     private Rank _requiredRank;

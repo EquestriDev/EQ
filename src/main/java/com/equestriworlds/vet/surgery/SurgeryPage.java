@@ -15,6 +15,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * An unfinished quiz of sorts.
+ */
 public class SurgeryPage
 extends MenuPageBase<HorseManager, SurgeryMenu> {
     private Question menuType = Question.One;

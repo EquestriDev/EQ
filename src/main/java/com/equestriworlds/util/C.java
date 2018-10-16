@@ -4,6 +4,9 @@ import java.util.EnumMap;
 import java.util.Map;
 import org.bukkit.ChatColor;
 
+/**
+ * Chat color constants and formatting.
+ */
 public class C {
     public static String Scramble = "" + (Object)ChatColor.MAGIC;
     public static String Bold = "" + (Object)ChatColor.BOLD;

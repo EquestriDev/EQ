@@ -6,6 +6,9 @@ import java.util.Comparator;
 import java.util.UUID;
 import org.bukkit.ChatColor;
 
+/**
+ * Comparator
+ */
 public class BrandListSorter
 implements Comparator<Brand> {
     @Override

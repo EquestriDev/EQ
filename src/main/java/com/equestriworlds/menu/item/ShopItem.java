@@ -9,6 +9,10 @@ import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/**
+ * Yet another item abstraction.
+ * extends ItemStack!
+ */
 public class ShopItem
 extends ItemStack {
     protected String _name;

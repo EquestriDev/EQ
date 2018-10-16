@@ -4,6 +4,9 @@ import com.equestriworlds.common.Rank;
 import com.equestriworlds.util.C;
 import org.bukkit.ChatColor;
 
+/**
+ * Chat format and color utility.
+ */
 public class F {
     public static String main(String module, String body) {
         return C.mHead + module + (Object)ChatColor.DARK_AQUA + " \u00bb " + C.mBody + body;

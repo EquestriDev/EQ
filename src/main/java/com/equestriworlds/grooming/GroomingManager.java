@@ -48,6 +48,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitTask;
 
+/**
+ * Grooming event handlers.
+ * Texture Pack, Cooldowns!
+ */
 public class GroomingManager
 extends MiniPlugin {
     private int count = 0;
