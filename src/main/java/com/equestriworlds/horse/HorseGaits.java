@@ -12,6 +12,7 @@ import com.equestriworlds.util.UtilGear;
 import com.equestriworlds.util.UtilServer;
 import com.equestriworlds.util.UtilTextMiddle;
 import java.util.HashMap;
+import java.util.UUID;
 import net.minecraft.server.v1_12_R1.AttributeInstance;
 import net.minecraft.server.v1_12_R1.EntityHorseAbstract;
 import net.minecraft.server.v1_12_R1.GenericAttributes;
@@ -40,6 +41,7 @@ import org.bukkit.util.Vector;
 public class HorseGaits
 extends MiniModule<HorseManager> {
     private HashMap<Player, Integer> gaits = new HashMap();
+    private HashMap<UUID, Long> times = new HashMap();
     private HashMap<AbstractHorse, Double> originalSpeed = new HashMap();
 
     HorseGaits(HorseManager plugin) {
@@ -58,15 +60,17 @@ extends MiniModule<HorseManager> {
         if (!UtilGear.isMat(player.getItemInHand(), Material.STICK)) {
             return;
         }
-        if (e.getHand().equals((Object)EquipmentSlot.OFF_HAND)) {
-            return;
-        }
+        if (e.getHand() != EquipmentSlot.HAND) return;
         if (!this.gaits.containsKey((Object)player) || !this.originalSpeed.containsKey((Object)player.getVehicle())) {
             this.gaits.put(player, 0);
             this.originalSpeed.put((AbstractHorse)player.getVehicle(), ((CraftAbstractHorse)player.getVehicle()).getHandle().getAttributeInstance(GenericAttributes.MOVEMENT_SPEED).getValue());
         }
         e.setCancelled(true);
-        if (UtilEvent.isAction(e, UtilEvent.ActionType.L)) {
+        long now = System.nanoTime();
+        Long then = times.get(player.getUniqueId());
+        if (then != null && now - then < 1000000000L) return;
+        switch (e.getAction()) {
+        case LEFT_CLICK_AIR: case LEFT_CLICK_BLOCK: {
             if (this.gaits.get((Object)player) >= 4) {
                 return;
             }
@@ -75,9 +79,10 @@ extends MiniModule<HorseManager> {
             double speed = this.calculateSpeed((AbstractHorse)player.getVehicle(), level);
             ((CraftAbstractHorse)player.getVehicle()).getHandle().getAttributeInstance(GenericAttributes.MOVEMENT_SPEED).setValue(speed);
             UtilTextMiddle.display(" ", C.cYellow + this.gaitName(level), 5, 40, 1, player);
-            return;
+            times.put(player.getUniqueId(), now);
+            break;
         }
-        if (UtilEvent.isAction(e, UtilEvent.ActionType.R)) {
+        case RIGHT_CLICK_AIR: case RIGHT_CLICK_BLOCK: {
             if (this.gaits.get((Object)player) <= 0) {
                 return;
             }
@@ -86,6 +91,10 @@ extends MiniModule<HorseManager> {
             double speed = this.calculateSpeed((AbstractHorse)player.getVehicle(), level);
             ((CraftAbstractHorse)player.getVehicle()).getHandle().getAttributeInstance(GenericAttributes.MOVEMENT_SPEED).setValue(speed);
             UtilTextMiddle.display(" ", C.cYellow + this.gaitName(level), 5, 40, 1, player);
+            times.put(player.getUniqueId(), now);
+            break;
+        }
+        default: break;
         }
     }
 
@@ -112,9 +121,10 @@ extends MiniModule<HorseManager> {
         if (!(e.getVehicle() instanceof AbstractHorse)) {
             return;
         }
-        this.gaits.remove((Object)e.getExited());
+        this.gaits.remove(e.getExited());
         ((CraftAbstractHorse)e.getVehicle()).getHandle().getAttributeInstance(GenericAttributes.MOVEMENT_SPEED).setValue(this.originalSpeed.get((Object)e.getVehicle()).doubleValue());
-        this.originalSpeed.remove((Object)e.getVehicle());
+        this.originalSpeed.remove(e.getVehicle());
+        this.times.remove((Player)e.getExited());
     }
 
     private String gaitName(int level) {
