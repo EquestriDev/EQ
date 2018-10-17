@@ -16,6 +16,9 @@ import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.event.player.PlayerResourcePackStatusEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Notify player about resource pack download.
+ */
 public class ResourcePackManager
 extends MiniPlugin {
     public ResourcePackManager(JavaPlugin plugin) {
@@ -47,19 +50,4 @@ extends MiniPlugin {
             }
         }
     }
-
-    @EventHandler
-    public void chat(PlayerCommandPreprocessEvent e) {
-        if (e.getMessage().equalsIgnoreCase("/wearenumberone")) {
-            e.getPlayer().playSound(e.getPlayer().getLocation(), "lazytown.wearenumberone", SoundCategory.MASTER, 1000.0f, 1.0f);
-            UtilPlayer.message((Entity)e.getPlayer(), F.main(this.getName(), "To listen to the song you need the resource pack " + F.elem("(/rp CUSTOM)") + " and then, ENJOY! ;)"));
-            UtilPlayer.message((Entity)e.getPlayer(), F.main(this.getName(), "To stop the song, type " + F.elem("/StopWeAreNumberOne")));
-            e.setCancelled(true);
-        } else if (e.getMessage().equalsIgnoreCase("/stopwearenumberone")) {
-            e.getPlayer().stopSound("lazytown.wearenumberone", SoundCategory.MASTER);
-            UtilPlayer.message((Entity)e.getPlayer(), F.main(this.getName(), "Rip the meme! ;("));
-            e.setCancelled(true);
-        }
-    }
-
 }
