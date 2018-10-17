@@ -9,6 +9,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Hook for PlaceHolderAPI
+ */
 public class EquestriWorldsHooks
 extends EZPlaceholderHook {
     private HorseManager horseManager;

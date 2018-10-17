@@ -14,6 +14,9 @@ import com.equestriworlds.util.UtilPlayer;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Literal abortion by a vet.
+ */
 public class HorseBreedingAbortCommand
 extends CommandBase<HorseManager> {
     public HorseBreedingAbortCommand(HorseManager plugin) {

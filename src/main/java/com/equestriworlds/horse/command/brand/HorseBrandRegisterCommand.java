@@ -18,6 +18,9 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Horse registerbrand
+ */
 public class HorseBrandRegisterCommand
 extends CommandBase<HorseManager> {
     private final Pattern STRIP_COLOR_PATTERN = Pattern.compile("(?i)" + String.valueOf('&') + "[0-9A-FK-OR]");

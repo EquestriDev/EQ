@@ -17,6 +17,9 @@ import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * Name based online player cache.
+ */
 public class CoreClientManager
 extends MiniPlugin {
     private JavaPlugin _plugin;

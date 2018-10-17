@@ -10,7 +10,6 @@ import com.equestriworlds.grooming.GroomingManager;
 import com.equestriworlds.horse.HorseManager;
 import com.equestriworlds.horse.config.HorseConfig;
 import com.equestriworlds.itemstack.ItemStackFactory;
-import com.equestriworlds.prefs.PreferenceManager;
 import com.equestriworlds.recharge.Recharge;
 import com.equestriworlds.rpmanager.ResourcePackManager;
 import com.equestriworlds.update.Updater;
@@ -41,7 +40,6 @@ implements Listener {
                 "megan.png",
                 "leo.png",
                 "milo.png",
-                "plugin.yml",
                 "caity.png"
             }) {
             saveResource(f, false);
@@ -51,7 +49,6 @@ implements Listener {
         this.getServer().getScheduler().scheduleSyncRepeatingTask((Plugin)this, (Runnable)new Updater(this), 1L, 1L);
         Recharge.Initialize(this);
         ItemStackFactory.Initialize(this, false);
-        new PreferenceManager(this);
         new ChatManager(this);
         new HorseConfig();
         new CertificationsManager(this);

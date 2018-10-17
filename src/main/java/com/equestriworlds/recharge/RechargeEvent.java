@@ -4,6 +4,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
+/**
+ * A general purpose cooldown mechanism of sorts.
+ * Recharge, Data, Event
+ * RechargedEvent
+ */
 public class RechargeEvent
 extends Event {
     private static final HandlerList handlers = new HandlerList();

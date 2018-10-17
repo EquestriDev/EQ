@@ -35,6 +35,9 @@ import net.md_5.bungee.api.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * The /horse command.
+ */
 public class HorseCommand
 extends MultiCommandBase<HorseManager> {
     public HorseCommand(HorseManager plugin) {

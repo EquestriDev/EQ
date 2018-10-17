@@ -13,6 +13,11 @@ import org.bukkit.map.MapCanvas;
 import org.bukkit.map.MapRenderer;
 import org.bukkit.map.MapView;
 
+/**
+ * Referenced by
+ * - HorseVetXrayCommand
+ * - VetManager
+ */
 public class Renderer
 extends MapRenderer {
     private SoftReference<BufferedImage> cacheImage;

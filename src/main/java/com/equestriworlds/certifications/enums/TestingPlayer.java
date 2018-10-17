@@ -4,6 +4,12 @@ import com.equestriworlds.certifications.enums.Discipline;
 import com.equestriworlds.certifications.enums.TestingPlayerToken;
 import org.bukkit.entity.Player;
 
+/**
+ * A player who is taking a quiz.
+ * Referenced by:
+ * CertificationsManager, CertificationsStartCommand
+ * Discipline
+ */
 public class TestingPlayer {
     public Player player;
     public TestingPlayerToken token;

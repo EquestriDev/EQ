@@ -34,6 +34,7 @@ import org.bukkit.plugin.PluginManager;
 
 /**
  * NBT pathfinder for horse.
+ * Follows owner automatically.
  */
 public class HorseFollowPathfinder
 extends PathfinderGoal {

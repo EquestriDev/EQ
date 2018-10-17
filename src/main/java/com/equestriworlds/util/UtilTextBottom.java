@@ -5,6 +5,9 @@ import com.equestriworlds.util.C;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
+/**
+ * Display Action Bar text. Especially progress bars.
+ */
 public class UtilTextBottom {
     public static /* varargs */ void display(String text, Player ... players) {
         JsonMessage msg = new JsonMessage(text);

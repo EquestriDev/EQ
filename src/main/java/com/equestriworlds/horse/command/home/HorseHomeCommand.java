@@ -17,6 +17,11 @@ import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Home system for horses.
+ * This is the overview; other commands go along with it.
+ * See HorseCommand
+ */
 public class HorseHomeCommand
 extends CommandBase<HorseManager> {
     public HorseHomeCommand(HorseManager plugin) {

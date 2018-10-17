@@ -2,6 +2,10 @@ package com.equestriworlds.util;
 
 import java.lang.reflect.Field;
 
+/**
+ * Reflection utility
+ * Referenced by: UtilEnt.Vegetate (unused)
+ */
 public class UtilField {
     public static void setField(Object packet, Field field, Object value) {
         field.setAccessible(true);

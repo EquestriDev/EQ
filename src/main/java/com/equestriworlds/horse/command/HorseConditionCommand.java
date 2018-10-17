@@ -11,6 +11,9 @@ import java.util.HashSet;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Condition mode, similar to info.
+ */
 public class HorseConditionCommand
 extends CommandBase<HorseManager> {
     HorseConditionCommand(HorseManager plugin) {

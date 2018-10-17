@@ -16,6 +16,12 @@ import org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Cause horse to start following.
+ * member boolean CustomHorse.follow
+ * Also updated in HorseManager#worldChange
+ * Execution seems to reside entirely in HorseFollowPathfinder.
+ */
 public class HorseFollowCommand
 extends CommandBase<HorseManager> {
     HorseFollowCommand(HorseManager plugin) {

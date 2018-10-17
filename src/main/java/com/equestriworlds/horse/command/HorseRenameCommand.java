@@ -15,6 +15,9 @@ import net.md_5.bungee.api.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Rename horse.
+ */
 public class HorseRenameCommand
 extends CommandBase<HorseManager> {
     public HorseRenameCommand(HorseManager plugin) {

@@ -21,6 +21,10 @@ import org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Seems to be only instantiated by AdminCommand
+ * /ha deletebrand PLAYER
+ */
 public class HorseDeleteBrandCommand
 extends CommandBase<HorseManager> {
     public HorseDeleteBrandCommand(HorseManager plugin) {

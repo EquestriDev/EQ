@@ -21,6 +21,9 @@ import org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Appears to be instantiated only by HorseAdminCommand
+ */
 public class HorseUnBrandCommand
 extends CommandBase<HorseManager> {
     public HorseUnBrandCommand(HorseManager plugin) {

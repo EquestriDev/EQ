@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Helper to define chest GUI layouts via simple format strings.
+ */
 public class ItemLayout {
     private int _invSize = 0;
     private ArrayList<Integer> _size = new ArrayList();

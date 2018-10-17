@@ -3,6 +3,10 @@ package com.equestriworlds.certifications.enums;
 import com.equestriworlds.certifications.enums.TestingPlayer;
 import com.equestriworlds.certifications.enums.TestingPlayerToken;
 
+/**
+ * Certification quiz data.
+ * See Certification* classes
+ */
 public enum Discipline {
     DRESSAGE("Dressage", "certifications.dressage", "dressage", "C", "D", "D", "B", "B", "B", "A", "C", "A", "C"),
     SHOWJUMPING("Show Jumping", "certifications.showjumping", "showjumping", "A", "C", "B", "D", "A", "B", "C", "A", "C", "B"),

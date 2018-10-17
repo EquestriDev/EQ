@@ -35,7 +35,7 @@ The Util classes contain many methods and fields which are not used anywhere. Wh
    185 vet/VetManager.java // Economy, gunpowder item, load some maps.
    180 barn/gui/barnshop/BarnShopArenasPage.java // Chest shop to buy arenas
    170 certifications/CertificationsManager.java // Chat quiz for certifications
-   167 horse/pathfinders/HorseFollowPathfinder.java // NBT pathfinder for horse.
+   167 horse/pathfinders/HorseFollowPathfinder.java // NBT pathfinder for horse. Follows owner automatically!
    164 menu/item/ShopItem.java // Yet another item abstraction which extends ItemStack
    158 horse/pathfinders/HorseBreedPathfinder.java // NBT pathfinder for horses
    150 util/C.java // Chat color constants and formatting.
@@ -55,165 +55,165 @@ The Util classes contain many methods and fields which are not used anywhere. Wh
    119 chat/ChatManager.java // Chat and command interceptor for staff chat, shop awareness, messagin utility
    118 command/CommandBase.java // Superclass of commands
    114 horse/command/vet/breeding/HorseBreedingMakeBabyCommand.java // Vet command
-   113 account/CoreClientManager.java
-   103 horse/command/HorseCommand.java
+   113 account/CoreClientManager.java // A name based online player cache of sorts
+   103 horse/command/HorseCommand.java // /horse
    101 barn/gui/barnshop/BarnShopStallsPage.java
     98 util/UtilTabList.java // Unused; removed
     98 util/ProtocolInjector.java // Unused; removed
     97 util/UUIDFetcher.java // Mojang API uuid tools; Unused and removed
-    96 horse/command/admin/HorseAdminSetColorCommand.java
-    95 certifications/commands/CertificationStartCommand.java
-    93 MiniConfig.java
-    90 recharge/RechargeData.java
-    88 Main.java
-    86 misc/commands/PlayerCountdownCommand.java
-    86 horse/command/home/HorseHomeCommand.java
-    86 horse/command/brand/HorseBrandCommand.java
-    86 horse/command/admin/HorseAdminCommand.java
-    85 util/UtilMath.java
-    85 util/UtilEvent.java
-    84 certifications/enums/Discipline.java
+    96 horse/command/admin/HorseAdminSetColorCommand.java // /ha setcolor, /ha sc
+    95 certifications/commands/CertificationStartCommand.java // /cert start <Player> <Discipline>
+    93 MiniConfig.java // Unused MiniConfig/Preference framework removed
+    90 recharge/RechargeData.java // thick abstraction layer for Cooldowns
+    88 Main.java // Main plugin class
+    86 misc/commands/PlayerCountdownCommand.java // /countdown
+    86 horse/command/home/HorseHomeCommand.java // /h home; home system for horses.
+    86 horse/command/brand/HorseBrandCommand.java // /h brand; brand management
+    86 horse/command/admin/HorseAdminCommand.java // /horseadmin, /ha
+    85 util/UtilMath.java // Math utility
+    85 util/UtilEvent.java // Figure out some event causes; unused since patch; removed
+    84 certifications/enums/Discipline.java // Certificate Quiz data
     82 util/UtilFirework.java // OBC Fireworks; unused and removed.
-    82 command/MultiCommandBase.java
-    79 rpmanager/ResourcePackManager.java
-    79 horse/command/vet/HorseVetXrayCommand.java
-    79 horse/command/admin/HorseAdminRemoveCommand.java
+    82 command/MultiCommandBase.java // Ostensibly an abstraction for commands with subcommands.
+    79 rpmanager/ResourcePackManager.java // Notify player about resource pack download.
+    79 horse/command/vet/HorseVetXrayCommand.java // Get horse xray. Seems unfinished.
+    79 horse/command/admin/HorseAdminRemoveCommand.java // /ha remove
     78 misc/events/AnimalTeleportEvent.java // Unused and removed
-    78 MiniConfigPlugin.java
+    78 MiniConfigPlugin.java // Unused MiniConfig/Preference framework removed
     77 horse/command/admin/HorseAdminSetStyleCommand.java
     76 horse/command/vet/breeding/HorseBreedingtestBreedCommand.java
     74 servermanager/ServerManager.java // Shutdown routines. Unused and removed.
-    74 horse/command/brand/admin/HorseUnBrandCommand.java
-    73 horse/command/vet/HorseVetSymptomsCommand.java
+    74 horse/command/brand/admin/HorseUnBrandCommand.java // /h unbrand OR /ha unbrand?
+    73 horse/command/vet/HorseVetSymptomsCommand.java // Dump horse symptoms
     72 menu/page/AnvilContainer.java // Unused; removed
-    72 horse/command/brand/HorseBrandRegisterCommand.java
-    71 util/UtilServer.java
-    71 horse/command/trust/HorseTrustRemoveCommand.java
-    71 horse/command/HorseCallCommand.java
-    71 horse/command/friend/HorseFriendRemoveCommand.java
-    70 vet/enums/Symptom.java
-    70 horse/command/HorseTeleportCommand.java
+    72 horse/command/brand/HorseBrandRegisterCommand.java // horse registerbrand
+    71 util/UtilServer.java // Nothing that Bukkit Server can't already do.
+    71 horse/command/trust/HorseTrustRemoveCommand.java // /h trust remove ID PLAYER
+    71 horse/command/HorseCallCommand.java // /h call
+    71 horse/command/friend/HorseFriendRemoveCommand.java // /h friend remove ID PLAYER
+    70 vet/enums/Symptom.java // enum with human readable names
+    70 horse/command/HorseTeleportCommand.java // /h tp ID
     69 horse/command/HorseRearCommand.java // Command to make horse walk. Unused and removed.
     69 horse/command/HorseComeCommand.java // Command to make horse walk. Unused and removed.
-    69 horse/command/brand/admin/HorseDeleteBrandCommand.java
-    67 horse/config/CustomHorseToken.java
-    67 horse/command/HorseChangeIdCommand.java
-    66 itemstack/ItemLayout.java
-    66 horse/command/HorseFollowCommand.java
-    66 horse/command/admin/HorseAdminGenderCommand.java
-    65 chat/command/AdminChatCommand.java
-    64 horse/command/trust/HorseTrustCommand.java
-    64 horse/command/friend/HorseFriendCommand.java
-    64 horse/command/friend/HorseFriendAddCommand.java
-    64 horse/command/brand/brandowner/HorseBrandOwnerCommand.java
-    64 horse/command/brand/brandowner/HorseBrandOwnerAddCommand.java
-    63 MiniModule.java
-    63 json/ChildJsonMessage.java
-    60 horse/command/trust/HorseTrustAddCommand.java
-    59 update/UpdateType.java
-    59 horse/command/HorseGiveCommand.java
-    59 horse/command/brand/brandowner/HorseBrandOwnerRemoveCommand.java
-    58 horse/CowPathfinders.java
-    58 horse/command/HorseRenameCommand.java
-    58 horse/command/home/HorseListHomeCommand.java
-    58 horse/command/admin/HorseAdminSpawnCommand.java
-    58 horse/command/admin/HorseAdminDismountAllCommand.java
-    56 util/UtilAction.java
-    56 horse/command/home/HorseAddHomeCommand.java
-    56 horse/command/friend/HorseFriendListCommand.java
-    56 horse/command/brand/brandowner/HorseBrandOwnerListCommand.java
-    55 util/Renderer.java
+    69 horse/command/brand/admin/HorseDeleteBrandCommand.java /ha deletebrand PLAYER
+    67 horse/config/CustomHorseToken.java // Easily serializable horse data.
+    67 horse/command/HorseChangeIdCommand.java // Change ID, not name
+    66 itemstack/ItemLayout.java // Helper to define chest GUI layouts via simple format strings.
+    66 horse/command/HorseFollowCommand.java // /h follow
+    66 horse/command/admin/HorseAdminGenderCommand.java // /ha (set)gender
+    65 chat/command/AdminChatCommand.java // /sc,... admin group chat
+    64 horse/command/trust/HorseTrustCommand.java // Horse trust system
+    64 horse/command/friend/HorseFriendCommand.java // Horse friend system
+    64 horse/command/friend/HorseFriendAddCommand.java // Horse friend system
+    64 horse/command/brand/brandowner/HorseBrandOwnerCommand.java // Horse brand stuff
+    64 horse/command/brand/brandowner/HorseBrandOwnerAddCommand.java // Horse brand stuff
+    63 MiniModule.java // Superclass of many smallish modules
+    63 json/ChildJsonMessage.java // Raw message abstraction
+    60 horse/command/trust/HorseTrustAddCommand.java // /h trust add ID PLAYER
+    59 update/UpdateType.java // Enum for the UpdateEvent
+    59 horse/command/HorseGiveCommand.java // /horse give ID PLAYER, gift horse
+    59 horse/command/brand/brandowner/HorseBrandOwnerRemoveCommand.java // Horse brand
+    58 horse/CowPathfinders.java // Makes cows act like cats
+    58 horse/command/HorseRenameCommand.java // /h rename ID NEW
+    58 horse/command/home/HorseListHomeCommand.java // /h listhome ID
+    58 horse/command/admin/HorseAdminSpawnCommand.java // /horseadmin, ha, many subcommands
+    58 horse/command/admin/HorseAdminDismountAllCommand.java // /ha forcedismount|dismountall|dismount
+    56 util/UtilAction.java // Velocity calculators
+    56 horse/command/home/HorseAddHomeCommand.java // /h addhome|homeadd|sethome|homeset, Horse homes
+    56 horse/command/friend/HorseFriendListCommand.java // /h friend list ID
+    56 horse/command/brand/brandowner/HorseBrandOwnerListCommand.java // /h brandowner list
+    55 util/Renderer.java // MapRenderer, used by vet xray
     55 util/RendererBACKUP.java // A cache for rendered images; unused and removed.
-    55 horse/command/trust/HorseTrustListCommand.java
-    55 horse/command/admin/HorseAdminDespawnCommand.java
-    54 util/UtilField.java
-    54 horse/command/vet/breeding/HorseBreedingAbortCommand.java
-    53 rpmanager/commands/ResourcePackCommand.java
-    53 horse/command/vet/HorseVetCommand.java
-    53 horse/command/HorseAccessCommand.java
-    53 horse/command/admin/HorseAdminAgeCommand.java
-    53 barn/BarnConfig.java
-    52 horse/command/home/HorseDelHomeCommand.java
-    52 horse/command/admin/HorseAdminSetSpeedCommand.java
-    52 horse/command/admin/HorseAdminSetJumpCommand.java
-    51 util/UtilTextBottom.java
-    51 recharge/RechargeEvent.java
-    51 misc/commands/CheckPlayerTimeCommand.java
-    51 horse/command/HorseFindCommand.java
-    51 horse/command/admin/HorseAdminFreeCommand.java
-    49 horse/command/HorseFreeCommand.java
-    48 util/UtilTextMiddle.java
-    48 horse/command/admin/HorseAdminToggleSaleCommand.java
-    48 barn/commands/BarnSeeCommand.java
-    46 horse/command/home/HorseHomeAllCommand.java
-    46 horse/command/admin/HorseAdminCallCommand.java
-    45 chat/command/AdminReplyCommand.java
-    44 horse/command/admin/HorseAdminDeleteCommand.java
-    43 horse/command/HorseInfoCommand.java
-    43 horse/command/HorseConditionCommand.java
+    55 horse/command/trust/HorseTrustListCommand.java // /h trust list ID
+    55 horse/command/admin/HorseAdminDespawnCommand.java // /ha despawn ID
+    54 util/UtilField.java // Reflection utility; used by unused function
+    54 horse/command/vet/breeding/HorseBreedingAbortCommand.java // /vet abort ID, abortion by vet
+    53 rpmanager/commands/ResourcePackCommand.java // Change resource pack via command.
+    53 horse/command/vet/HorseVetCommand.java // /vet. Many subcommands
+    53 horse/command/HorseAccessCommand.java // /h access ID, Change horse access, see HorseAccess
+    53 horse/command/admin/HorseAdminAgeCommand.java // /ha age ID, "toggle" age?!
+    53 barn/BarnConfig.java // Storage abstraction for one file: barns.yml
+    52 horse/command/home/HorseDelHomeCommand.java // /h delhome
+    52 horse/command/admin/HorseAdminSetSpeedCommand.java // /ha setspeed ID SPEED
+    52 horse/command/admin/HorseAdminSetJumpCommand.java // /ha setjump ID JUMP
+    51 util/UtilTextBottom.java // Display Action Bar text. Especially progress bars.
+    51 recharge/RechargeEvent.java // Cooldown system
+    51 misc/commands/CheckPlayerTimeCommand.java // /checktime; essentially loginfo
+    51 horse/command/HorseFindCommand.java // /h find ID, display owner
+    51 horse/command/admin/HorseAdminFreeCommand.java // /ha free, remove horse owner
+    49 horse/command/HorseFreeCommand.java // /h free, remove horse owner
+    48 util/UtilTextMiddle.java // Title sending utility.
+    48 horse/command/admin/HorseAdminToggleSaleCommand.java // /ha togglesale ID
+    48 barn/commands/BarnSeeCommand.java // /barn see, opens chest menu
+    46 horse/command/home/HorseHomeAllCommand.java // /h homeall
+    46 horse/command/admin/HorseAdminCallCommand.java // /ha call ID
+    45 chat/command/AdminReplyCommand.java // /adminreply, /am, admin whisper
+    44 horse/command/admin/HorseAdminDeleteCommand.java // /ha delete ID
+    43 horse/command/HorseInfoCommand.java // /h info, toggle info mode
+    43 horse/command/HorseConditionCommand.java // /h cond, toggle condition mode, similar to info.
     42 util/UtilParticle.java // Unused; removed
-    42 prefs/PreferenceManager.java
-    41 recharge/RechargedEvent.java
-    41 certifications/configurations/configuration.java
-    41 certifications/commands/CertificationListCommand.java
-    40 horse/event/HorseTrustRemoveEvent.java
-    40 horse/event/HorseFriendRemoveEvent.java
-    40 account/event/ClientLoadEvent.java
-    40 account/CoreClient.java
-    39 update/Updater.java
-    39 misc/EquestriWorldsHooks.java
-    39 horse/command/HorseListCommand.java
-    39 horse/command/brand/admin/HorseBrandAdminCommand.java
-    38 chat/command/AdminMessageCommand.java
-    36 vet/enums/Disease.java
-    36 horse/command/vet/HorseVetSurgeryCommand.java
-    36 chat/command/StaffBroadcastCommand.java
-    36 certifications/commands/CertificationCommand.java
-    36 barn/commands/BarnCommand.java
-    35 horse/command/admin/HorseAdminBypassCommand.java
-    34 update/UpdateEvent.java
-    33 vet/config.java
+    42 prefs/PreferenceManager.java // Unused MiniConfig/Preference framework removed
+    41 recharge/RechargedEvent.java // Cooldown system
+    41 certifications/configurations/configuration.java // Certifications quiz data. Abstracts one file.
+    41 certifications/commands/CertificationListCommand.java // /cert list, list available certs
+    40 horse/event/HorseTrustRemoveEvent.java // bukkit Event
+    40 horse/event/HorseFriendRemoveEvent.java // bukkit Event
+    40 account/event/ClientLoadEvent.java // Pertains to CoreClientManager
+    40 account/CoreClient.java // Pertains to CoreClientManager
+    39 update/Updater.java // Call UpdateEvents regularly
+    39 misc/EquestriWorldsHooks.java // Hook for PlaceHolderAPI
+    39 horse/command/HorseListCommand.java // /h l, open menu
+    39 horse/command/brand/admin/HorseBrandAdminCommand.java // /ha brand, many subcommands
+    38 chat/command/AdminMessageCommand.java // /adminmessage, /am, secret whisper
+    36 vet/enums/Disease.java // Disease enum with name and symptoms
+    36 horse/command/vet/HorseVetSurgeryCommand.java // Vet surgery quiz, likely unfinished
+    36 chat/command/StaffBroadcastCommand.java // /broadcast, /bc, Global broadcasting with sound
+    36 certifications/commands/CertificationCommand.java // /cert, many subcommands
+    36 barn/commands/BarnCommand.java // /barn, /b, many subcommands
+    35 horse/command/admin/HorseAdminBypassCommand.java // /ha bypass, Toggle bypass mode
+    34 update/UpdateEvent.java // Regular ticks
+    33 vet/config.java // Abstraction over config.yml...
     33 util/ConvertProgressUpdater.java // obfuscated stub; unused and removed
-    33 json/Color.java
-    33 account/event/ClientUnloadEvent.java
-    32 prefs/command/PreferenceChatCommand.java
-    31 misc/commands/TestingCommand.java
-    31 command/ICommand.java
-    30 rpmanager/ResourcePack.java
-    29 horse/gui/spawner/HorseSpawnerMenu.java
-    29 horse/gui/list/HorseListMenu.java
-    29 horse/command/brand/HorseBrandListCommand.java /brandlist, /bl, Brand chest menu; unused
-    29 common/DummyEntity.java
-    29 common/CurrencyType.java
-    28 barn/commands/BarnShopCommand.java
-    27 vet/enums/HappySymptom.java
-    27 servermanager/ServerStopEvent.java
-    27 horse/config/HorseAccess.java
-    27 grooming/Objects/GroomedHorseToken.java
-    26 vet/surgery/SurgeryMenu.java
-    26 prefs/command/PreferenceCommand.java
+    33 json/Color.java // Color enum, identical to ChatColor but without formatting codes
+    33 account/event/ClientUnloadEvent.java // CoreClient stuff
+    32 prefs/command/PreferenceChatCommand.java // Unused MiniConfig/Preference framework removed
+    31 misc/commands/TestingCommand.java // Debug Stub
+    31 command/ICommand.java // Parent interface of all commands.
+    30 rpmanager/ResourcePack.java // Resource pack enum
+    29 horse/gui/spawner/HorseSpawnerMenu.java // Some chest menu.
+    29 horse/gui/list/HorseListMenu.java // Some chest menu. Presumable /h l
+    29 horse/command/brand/HorseBrandListCommand.java // /brandlist, /bl, Brand chest menu; unused
+    29 common/DummyEntity.java // Unused stub; removed
+    29 common/CurrencyType.java // Unused currency abstraction; removed
+    28 barn/commands/BarnShopCommand.java // /barn shop; opens BarnShopMenu
+    27 vet/enums/HappySymptom.java // Random happy symptom enum
+    27 servermanager/ServerStopEvent.java // bukkit event
+    27 horse/config/HorseAccess.java // Enum for who can access horse: nobody, friends, all
+    27 grooming/Objects/GroomedHorseToken.java // Persistence data for grooming. Not sure if ever saved to disk.
+    26 vet/surgery/SurgeryMenu.java // Menu for vet surgery. Probably unfinished.
+    26 prefs/command/PreferenceCommand.java // Unused MiniConfig/Preference framework removed
     26 horse/breeding/breedingStages.java // Enum for breeding
     26 horse/branding/list/BrandListMenu.java /brandlist, /bl, Brand chest menu; unused
-    26 barn/gui/barnshop/BarnShopMenu.java
-    26 barn/gui/barnlookup/BarnLookupMenu.java
+    26 barn/gui/barnshop/BarnShopMenu.java // chest gui
+    26 barn/gui/barnlookup/BarnLookupMenu.java // chest gui
     24 horse/branding/list/BrandListSorter.java // Comparator
-    24 horse/branding/Brand.java
+    24 horse/branding/Brand.java // Container for UUID and BrandToken
     23 util/UtilBossBar.java // Unused stub; removed
-    23 horse/gui/list/HorseListSorter.java
-    23 horse/command/admin/HorseAdminTestCommand.java
-    23 certifications/enums/TestingPlayer.java
-    22 horse/config/Gender.java
-    21 json/ClickEvent.java
-    20 json/HoverEvent.java
+    23 horse/gui/list/HorseListSorter.java // Comparator for CustomHorse
+    23 horse/command/admin/HorseAdminTestCommand.java // Debug command stub
+    23 certifications/enums/TestingPlayer.java // Player who is taking a test/quiz.
+    22 horse/config/Gender.java // 3 gender enum
+    21 json/ClickEvent.java // Raw message abstraction
+    20 json/HoverEvent.java // Raw message abstraction
     19 menu/item/IDisplayPackage.java // Unused; stub interface; removed
-    19 horse/gui/spawner/HorseSpawnerPageType.java
-    17 prefs/Preference.java
-    17 grooming/Objects/GroomedHorse.java
-    17 grooming/Objects/CrosstiedHorse.java
+    19 horse/gui/spawner/HorseSpawnerPageType.java // See HorseSpawnerPage, /ha spawn
+    17 prefs/Preference.java // Unused MiniConfig/Preference framework removed
+    17 grooming/Objects/GroomedHorse.java // Container for CustomHorse and GroomedHorseToken
+    17 grooming/Objects/CrosstiedHorse.java // Container for CustomHorse and CrosstiedHorseToken
     16 horse/pathfinders/HorseComePathfinder.java // Unused and stub; removed
-    15 menu/item/IButton.java
+    15 menu/item/IButton.java // Like a runnable for click events; container for Player and ClickType
     14 horse/flying/FlyingHorse.java // Unused stub; removed
-    14 horse/branding/BrandToken.java
-    14 grooming/Objects/CrosstiedHorseToken.java
-    12 certifications/enums/TestingPlayerToken.java
+    14 horse/branding/BrandToken.java // Brand persistence
+    14 grooming/Objects/CrosstiedHorseToken.java // Container for AbstractHorse and boolean
+    12 certifications/enums/TestingPlayerToken.java // Data of player taking quiz
      8 util/Callback.java // Unused; removed

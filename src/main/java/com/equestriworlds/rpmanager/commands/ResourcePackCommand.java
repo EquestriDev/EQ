@@ -12,6 +12,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Change resource pack via command.
+ */
 public class ResourcePackCommand
 extends CommandBase<ResourcePackManager> {
     public ResourcePackCommand(ResourcePackManager plugin) {

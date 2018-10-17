@@ -11,6 +11,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
 
+/**
+ * A few velocity calculators.
+ */
 public class UtilAction {
     public static void velocity(Entity ent, double str, double yAdd, double yMax, boolean groundBoost) {
         UtilAction.velocity(ent, ent.getLocation().getDirection(), str, false, 0.0, yAdd, yMax, groundBoost);

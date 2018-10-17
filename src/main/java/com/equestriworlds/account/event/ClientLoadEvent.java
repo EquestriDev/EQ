@@ -4,6 +4,10 @@ import java.util.UUID;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
+/**
+ * Name based online player cache.
+ * See CoreClientManager.
+ */
 public class ClientLoadEvent
 extends Event {
     private static final HandlerList handlers = new HandlerList();

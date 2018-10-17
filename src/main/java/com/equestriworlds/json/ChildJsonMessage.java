@@ -2,6 +2,9 @@ package com.equestriworlds.json;
 
 import com.equestriworlds.json.JsonMessage;
 
+/**
+ * Raw message abstraction
+ */
 public class ChildJsonMessage
 extends JsonMessage {
     private JsonMessage _parent;

@@ -7,7 +7,6 @@ import com.equestriworlds.update.UpdateEvent;
 import com.equestriworlds.update.UpdateType;
 import com.equestriworlds.util.C;
 import com.equestriworlds.util.UtilAction;
-import com.equestriworlds.util.UtilEvent;
 import com.equestriworlds.util.UtilGear;
 import com.equestriworlds.util.UtilServer;
 import com.equestriworlds.util.UtilTextMiddle;

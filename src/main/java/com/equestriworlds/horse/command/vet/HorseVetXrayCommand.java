@@ -23,6 +23,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.map.MapRenderer;
 import org.bukkit.map.MapView;
 
+/**
+ * Give player horse xray?!
+ * This seems unfinished.
+ */
 public class HorseVetXrayCommand
 extends CommandBase<HorseManager> {
     HorseVetXrayCommand(HorseManager plugin) {

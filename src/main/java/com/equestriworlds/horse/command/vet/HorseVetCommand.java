@@ -18,6 +18,9 @@ import net.md_5.bungee.api.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * /vet
+ */
 public class HorseVetCommand
 extends MultiCommandBase<HorseManager> {
     public HorseVetCommand(HorseManager plugin) {

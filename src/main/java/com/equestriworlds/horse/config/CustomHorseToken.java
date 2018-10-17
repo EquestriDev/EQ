@@ -15,6 +15,9 @@ import org.bukkit.entity.Horse;
 import org.bukkit.entity.Llama;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * Easily serializable horse data.
+ */
 public class CustomHorseToken {
     public String name;
     public UUID owner;

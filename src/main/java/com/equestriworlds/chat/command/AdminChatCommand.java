@@ -15,6 +15,9 @@ import org.bukkit.Sound;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Admin group chat
+ */
 public class AdminChatCommand
 extends CommandBase<ChatManager> {
     public AdminChatCommand(ChatManager plugin) {

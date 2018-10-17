@@ -19,6 +19,9 @@ import org.bukkit.entity.AbstractHorse;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * /ha remove
+ */
 public class HorseAdminRemoveCommand
 extends CommandBase<HorseManager> {
     HorseAdminRemoveCommand(HorseManager plugin) {

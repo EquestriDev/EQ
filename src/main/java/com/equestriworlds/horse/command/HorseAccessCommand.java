@@ -15,6 +15,10 @@ import org.apache.commons.lang.WordUtils;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Change horse access.
+ * See: HorseAccess
+ */
 public class HorseAccessCommand
 extends CommandBase<HorseManager> {
     HorseAccessCommand(HorseManager plugin) {

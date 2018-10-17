@@ -2,6 +2,10 @@ package com.equestriworlds.account;
 
 import org.bukkit.entity.Player;
 
+/**
+ * Name based online player cache.
+ * See CoreClientManager.
+ */
 public class CoreClient {
     private String _name;
     private Player _player;

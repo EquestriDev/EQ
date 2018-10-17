@@ -15,6 +15,10 @@ import java.util.regex.Pattern;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Change horse ID, *NOT* name.
+ * See HorseRenameCommand
+ */
 public class HorseChangeIdCommand
 extends CommandBase<HorseManager> {
     public HorseChangeIdCommand(HorseManager plugin) {

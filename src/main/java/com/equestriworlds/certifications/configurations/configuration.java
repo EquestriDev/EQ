@@ -7,6 +7,9 @@ import java.io.InputStream;
 import org.apache.commons.io.FileUtils;
 import org.bukkit.configuration.file.YamlConfiguration;
 
+/**
+ * Abstraction for certifications/certifications.yml
+ */
 public class configuration {
     public static YamlConfiguration config;
 

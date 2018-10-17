@@ -11,6 +11,9 @@ import org.bukkit.Sound;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Nothing that Bukkit Server can't already do.
+ */
 public class UtilServer {
     public static Player[] getPlayers() {
         return UtilServer.getServer().getOnlinePlayers().toArray(new Player[0]);

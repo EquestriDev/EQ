@@ -2,6 +2,9 @@ package com.equestriworlds.vet.enums;
 
 import java.util.Random;
 
+/**
+ * Used by CustomHorseToken
+ */
 public enum Symptom {
     LAMENESS("Lameness"),
     EXTREMELAMENESS("Extreme Lameness"),

@@ -11,6 +11,11 @@ import com.equestriworlds.vet.surgery.SurgeryMenu;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Vet quiz of sorts, most likely unfinished.
+ * See also:
+ * SurgeryMenu, SurgeryPage
+ */
 public class HorseVetSurgeryCommand
 extends CommandBase<HorseManager> {
     HorseVetSurgeryCommand(HorseManager plugin) {

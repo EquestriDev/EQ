@@ -30,6 +30,10 @@ import com.equestriworlds.util.UtilServer;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * /horseadmin
+ * /ha
+ */
 public class HorseAdminCommand
 extends MultiCommandBase<HorseManager> {
     public HorseAdminCommand(HorseManager plugin) {

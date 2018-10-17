@@ -3,6 +3,10 @@ package com.equestriworlds.account.event;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
+/**
+ * Name based online player cache.
+ * See CoreClientManager.
+ */
 public class ClientUnloadEvent
 extends Event {
     private static final HandlerList handlers = new HandlerList();

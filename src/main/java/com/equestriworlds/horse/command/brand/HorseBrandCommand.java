@@ -22,6 +22,11 @@ import org.bukkit.craftbukkit.v1_12_R1.entity.CraftAbstractHorse;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Horse brand management.
+ * This is the overview; other commands go along with it.
+ * See HorseCommand
+ */
 public class HorseBrandCommand
 extends CommandBase<HorseManager> {
     public HorseBrandCommand(HorseManager plugin) {

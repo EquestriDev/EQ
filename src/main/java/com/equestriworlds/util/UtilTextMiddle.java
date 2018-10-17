@@ -4,6 +4,9 @@ import com.equestriworlds.util.C;
 import com.equestriworlds.util.UtilServer;
 import org.bukkit.entity.Player;
 
+/**
+ * Title sending utility.
+ */
 public class UtilTextMiddle {
     public static void display(String title, String subtitle, Player player) {
         UtilTextMiddle.display(title, subtitle, 20, 60, 20, player);

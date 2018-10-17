@@ -17,6 +17,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
+/**
+ * /countdown
+ * Instantiated in MiscManager
+ * triggers global countdown announced via chat.
+ */
 public class PlayerCountdownCommand
 extends MultiCommandBase<HorseManager> {
     private Long cooldown = 0L;

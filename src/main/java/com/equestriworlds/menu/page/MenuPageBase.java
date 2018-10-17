@@ -3,7 +3,6 @@ package com.equestriworlds.menu.page;
 import com.equestriworlds.MiniPlugin;
 import com.equestriworlds.account.CoreClient;
 import com.equestriworlds.account.CoreClientManager;
-import com.equestriworlds.common.CurrencyType;
 import com.equestriworlds.itemstack.ItemStackFactory;
 import com.equestriworlds.menu.MenuBase;
 import com.equestriworlds.menu.item.IButton;
@@ -44,7 +43,6 @@ implements Listener {
     private ShopType _shop;
     private Player _player;
     private CoreClient _client;
-    private CurrencyType _currencyType;
     private HashMap<Integer, IButton> _buttonMap;
     private boolean _showCurrency = false;
     private int _currencySlot = 4;
@@ -218,14 +216,6 @@ implements Listener {
 
     protected CoreClient getClient() {
         return this._client;
-    }
-
-    protected CurrencyType getCurrencyType() {
-        return this._currencyType;
-    }
-
-    protected void setCurrencyType(CurrencyType type) {
-        this._currencyType = type;
     }
 
     protected HashMap<Integer, IButton> getButtonMap() {

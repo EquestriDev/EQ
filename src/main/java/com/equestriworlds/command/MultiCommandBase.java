@@ -13,6 +13,9 @@ import java.util.List;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+/**
+ * Ostensibly an abstraction for commands with subcommands.
+ */
 public abstract class MultiCommandBase<PluginType extends MiniPlugin>
 extends CommandBase<PluginType> {
     protected HashMap<String, ICommand> Commands = new HashMap();
