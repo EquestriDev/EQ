@@ -2,32 +2,21 @@ package com.equestriworlds.barn.gui.barnshop;
 
 import com.equestriworlds.account.CoreClientManager;
 import com.equestriworlds.barn.BarnManager;
-import com.equestriworlds.barn.gui.barnshop.BarnShopArenasPage;
-import com.equestriworlds.barn.gui.barnshop.BarnShopMenu;
-import com.equestriworlds.barn.gui.barnshop.BarnShopStallsPage;
 import com.equestriworlds.itemstack.ItemLayout;
 import com.equestriworlds.itemstack.ItemStackFactory;
-import com.equestriworlds.menu.MenuBase;
-import com.equestriworlds.menu.item.IButton;
 import com.equestriworlds.menu.page.MenuPageBase;
 import com.equestriworlds.util.C;
 import com.equestriworlds.util.F;
 import com.equestriworlds.util.UtilPlayer;
-import com.intellectualcrafters.plot.api.PlotAPI;
 import com.intellectualcrafters.plot.object.Plot;
 import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.PlotId;
 import com.intellectualcrafters.plot.object.PlotPlayer;
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.UUID;
+import java.util.Arrays;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
-import org.bukkit.event.inventory.ClickType;
-import org.bukkit.inventory.ItemStack;
 
 /**
  * /barn shop
@@ -38,24 +27,28 @@ extends MenuPageBase<BarnManager, BarnShopMenu> {
     private Plot plot;
     private BarnShopPageType menuType;
     private Economy eco;
+    private String worldName;
 
     BarnShopPage(BarnManager plugin, BarnShopMenu shop, CoreClientManager clientManager, String name, Player player) {
         super(plugin, shop, clientManager, name, player);
         this.plot = ((BarnManager)this.getPlugin()).plot.getPlot(this.getPlayer());
         this.menuType = BarnShopPageType.Stalls;
         this.eco = ((BarnManager)this.getPlugin()).eco;
+        this.worldName = player.getWorld().getName();
         this.buildPage();
     }
 
     @Override
     protected void buildPage() {
-        this.addConfirmation(this.eco, 13, Material.GRASS, 1, "Plot", new String[]{"Purchase a plot to build", "Your dream barn and store", "All your beautiful horses!"}, 60000, () -> {
-            PlotPlayer pplayer = PlotPlayer.wrap((Object)this.getPlayer());
-            PlotArea plotArea = pplayer.getApplicablePlotArea();
-            Plot freePlot = plotArea.getNextFreePlot(pplayer, null);
-            ((BarnManager)this.getPlugin()).runSyncLater(() -> UtilPlayer.message((Entity)this.getPlayer(), F.main("Barn", "You have claimed this plot for your barn. Enjoy!")), 1L);
-            freePlot.claim(pplayer, true, null);
-        });
+        if (Arrays.asList("Plots", "NewPlots", "pnew").contains(this.worldName)) {
+            this.addConfirmation(this.eco, 13, Material.GRASS, 1, "Plot", new String[]{"Purchase a plot to build", "Your dream barn and store", "All your beautiful horses!"}, 60000, () -> {
+                    PlotPlayer pplayer = PlotPlayer.wrap((Object)this.getPlayer());
+                    PlotArea plotArea = pplayer.getApplicablePlotArea();
+                    Plot freePlot = plotArea.getNextFreePlot(pplayer, null);
+                    ((BarnManager)this.getPlugin()).runSyncLater(() -> UtilPlayer.message((Entity)this.getPlayer(), F.main("Barn", "You have claimed this plot for your barn. Enjoy!")), 1L);
+                    freePlot.claim(pplayer, true, null);
+                });
+        }
         if (this.plot != null && (this.plot.getOwners().contains(this.getPlayer().getUniqueId()) || this.plot.getTrusted().contains(this.getPlayer().getUniqueId()))) {
             this.buildSectionChoice();
             if (this.menuType == BarnShopPageType.Stalls) {
@@ -161,15 +154,12 @@ extends MenuPageBase<BarnManager, BarnShopMenu> {
         });
     }
 
-    public static enum BarnShopPageType {
+    public enum BarnShopPageType {
         Stalls,
         Arenas,
         Addons,
         Houses;
-        
 
-        private BarnShopPageType() {
-        }
+        BarnShopPageType() { }
     }
-
 }
